@@ -1,8 +1,8 @@
 theme: jekyll-theme-slate
-title: template_data_repo
-description: Standardised template for mysociety data repositories
+title: uk_westminster_constituency_names_and_codes
+description: Lookup between different ways of naming and coding UK westminster parliamentary constituencies
 
-baseurl: "/template_data_repo"
+baseurl: "/uk_westminster_constituency_names_and_codes"
 url: "https://mysociety.github.io"
 
 collections:

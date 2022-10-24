@@ -1,4 +1,4 @@
-import template_data_repo
+import uk_westminster_constituency_names_and_codes
 
 import pytest
 

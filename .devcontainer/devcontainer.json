@@ -7,7 +7,7 @@
 		".devcontainer/initializeCommand"
 	],
 	"postCreateCommand": ".devcontainer/postCreateCommand",
-	"workspaceFolder": "/workspaces/template_data_repo",
+	"workspaceFolder": "/workspaces/uk_westminster_constituency_names_and_codes",
 	"extensions": [
 		"ms-vscode.test-adapter-converter",
 		"bungcip.better-toml",
