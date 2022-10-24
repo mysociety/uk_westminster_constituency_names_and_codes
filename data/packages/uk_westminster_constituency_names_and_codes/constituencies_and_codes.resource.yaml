@@ -1,0 +1,50 @@
+title: UK Westminster Constituency names and codes
+description: A list of UK Westminster constituencies with their names and IDs from
+  various sources
+custom:
+  row_count: 650
+path: constituencies_and_codes.csv
+name: constituencies_and_codes
+profile: tabular-data-resource
+scheme: file
+format: csv
+hashing: md5
+encoding: utf-8
+schema:
+  fields:
+  - name: name
+    type: string
+    description: Name of Constituency
+    constraints:
+      unique: true
+    example: Aberavon
+  - name: country
+    type: string
+    description: The Country the constituency is in
+    constraints:
+      unique: false
+      enum:
+      - Wales
+      - Scotland
+      - England
+      - Northern Ireland
+    example: Wales
+  - name: mapit-id
+    type: integer
+    description: Area ID from Mapit
+    constraints:
+      unique: true
+    example: 66101
+  - name: gss-code
+    type: string
+    description: GSS code for constituency
+    constraints:
+      unique: true
+    example: W07000049
+  - name: parliament-id
+    type: integer
+    description: Id for constituency as use by Parliament members API
+    constraints:
+      unique: true
+    example: 3287
+hash: fc2c1d2705a8d293fe39787bb9b3520d
