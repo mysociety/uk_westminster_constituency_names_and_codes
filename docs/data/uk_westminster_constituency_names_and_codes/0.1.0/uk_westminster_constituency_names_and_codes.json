@@ -1,0 +1,4642 @@
+{
+    "name": "uk_westminster_constituency_names_and_codes",
+    "title": "UK Westminster constituency names and codes",
+    "description": "A list of UK Westminster constituencies with various codes\n",
+    "version": "0.1.0",
+    "licenses": [
+        {
+            "name": "CC-BY-4.0",
+            "path": "https://creativecommons.org/licenses/by/4.0/",
+            "title": "Creative Commons Attribution 4.0 International License"
+        }
+    ],
+    "contributors": [
+        {
+            "title": "mySociety",
+            "path": "https://mysociety.org",
+            "role": "author"
+        }
+    ],
+    "resources": [
+        {
+            "title": "UK Westminster Constituency names and codes",
+            "description": "A list of UK Westminster constituencies with their names and IDs from various sources",
+            "custom": {
+                "row_count": 650
+            },
+            "name": "constituencies_and_codes",
+            "profile": "tabular-data-resource",
+            "format": "json",
+            "hashing": "md5",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "name",
+                        "type": "string",
+                        "description": "Name of Constituency",
+                        "constraints": {
+                            "unique": true
+                        },
+                        "example": "Aberavon"
+                    },
+                    {
+                        "name": "country",
+                        "type": "string",
+                        "description": "The Country the constituency is in",
+                        "constraints": {
+                            "unique": false,
+                            "enum": [
+                                "Wales",
+                                "Scotland",
+                                "England",
+                                "Northern Ireland"
+                            ]
+                        },
+                        "example": "Wales"
+                    },
+                    {
+                        "name": "mapit-id",
+                        "type": "integer",
+                        "description": "Area ID from Mapit",
+                        "constraints": {
+                            "unique": true
+                        },
+                        "example": 66101
+                    },
+                    {
+                        "name": "gss-code",
+                        "type": "string",
+                        "description": "GSS code for constituency",
+                        "constraints": {
+                            "unique": true
+                        },
+                        "example": "W07000049"
+                    },
+                    {
+                        "name": "parliament-id",
+                        "type": "integer",
+                        "description": "Id for constituency as use by Parliament members API",
+                        "constraints": {
+                            "unique": true
+                        },
+                        "example": 3287
+                    }
+                ]
+            },
+            "hash": "fc2c1d2705a8d293fe39787bb9b3520d",
+            "data": [
+                {
+                    "name": "Aberavon",
+                    "country": "Wales",
+                    "mapit-id": 66101,
+                    "gss-code": "W07000049",
+                    "parliament-id": 3287
+                },
+                {
+                    "name": "Aberconwy",
+                    "country": "Wales",
+                    "mapit-id": 66085,
+                    "gss-code": "W07000058",
+                    "parliament-id": 3288
+                },
+                {
+                    "name": "Aberdeen North",
+                    "country": "Scotland",
+                    "mapit-id": 14398,
+                    "gss-code": "S14000001",
+                    "parliament-id": 14
+                },
+                {
+                    "name": "Aberdeen South",
+                    "country": "Scotland",
+                    "mapit-id": 14399,
+                    "gss-code": "S14000002",
+                    "parliament-id": 20
+                },
+                {
+                    "name": "Airdrie and Shotts",
+                    "country": "Scotland",
+                    "mapit-id": 14400,
+                    "gss-code": "S14000003",
+                    "parliament-id": 36
+                },
+                {
+                    "name": "Aldershot",
+                    "country": "England",
+                    "mapit-id": 65730,
+                    "gss-code": "E14000530",
+                    "parliament-id": 3289
+                },
+                {
+                    "name": "Aldridge-Brownhills",
+                    "country": "England",
+                    "mapit-id": 65773,
+                    "gss-code": "E14000531",
+                    "parliament-id": 3290
+                },
+                {
+                    "name": "Altrincham and Sale West",
+                    "country": "England",
+                    "mapit-id": 65892,
+                    "gss-code": "E14000532",
+                    "parliament-id": 3291
+                },
+                {
+                    "name": "Alyn and Deeside",
+                    "country": "Wales",
+                    "mapit-id": 66103,
+                    "gss-code": "W07000043",
+                    "parliament-id": 3292
+                },
+                {
+                    "name": "Amber Valley",
+                    "country": "England",
+                    "mapit-id": 65809,
+                    "gss-code": "E14000533",
+                    "parliament-id": 3293
+                },
+                {
+                    "name": "Angus",
+                    "country": "Scotland",
+                    "mapit-id": 14401,
+                    "gss-code": "S14000004",
+                    "parliament-id": 59
+                },
+                {
+                    "name": "Arfon",
+                    "country": "Wales",
+                    "mapit-id": 66108,
+                    "gss-code": "W07000057",
+                    "parliament-id": 3294
+                },
+                {
+                    "name": "Argyll and Bute",
+                    "country": "Scotland",
+                    "mapit-id": 14402,
+                    "gss-code": "S14000005",
+                    "parliament-id": 67
+                },
+                {
+                    "name": "Arundel and South Downs",
+                    "country": "England",
+                    "mapit-id": 65784,
+                    "gss-code": "E14000534",
+                    "parliament-id": 3295
+                },
+                {
+                    "name": "Ashfield",
+                    "country": "England",
+                    "mapit-id": 65895,
+                    "gss-code": "E14000535",
+                    "parliament-id": 3296
+                },
+                {
+                    "name": "Ashford",
+                    "country": "England",
+                    "mapit-id": 65811,
+                    "gss-code": "E14000536",
+                    "parliament-id": 3297
+                },
+                {
+                    "name": "Ashton-under-Lyne",
+                    "country": "England",
+                    "mapit-id": 66056,
+                    "gss-code": "E14000537",
+                    "parliament-id": 3298
+                },
+                {
+                    "name": "Aylesbury",
+                    "country": "England",
+                    "mapit-id": 65739,
+                    "gss-code": "E14000538",
+                    "parliament-id": 3299
+                },
+                {
+                    "name": "Ayr, Carrick and Cumnock",
+                    "country": "Scotland",
+                    "mapit-id": 14403,
+                    "gss-code": "S14000006",
+                    "parliament-id": 99
+                },
+                {
+                    "name": "Banbury",
+                    "country": "England",
+                    "mapit-id": 66008,
+                    "gss-code": "E14000539",
+                    "parliament-id": 3300
+                },
+                {
+                    "name": "Banff and Buchan",
+                    "country": "Scotland",
+                    "mapit-id": 14404,
+                    "gss-code": "S14000007",
+                    "parliament-id": 110
+                },
+                {
+                    "name": "Barking",
+                    "country": "England",
+                    "mapit-id": 65662,
+                    "gss-code": "E14000540",
+                    "parliament-id": 3301
+                },
+                {
+                    "name": "Barnsley Central",
+                    "country": "England",
+                    "mapit-id": 65665,
+                    "gss-code": "E14000541",
+                    "parliament-id": 3302
+                },
+                {
+                    "name": "Barnsley East",
+                    "country": "England",
+                    "mapit-id": 66012,
+                    "gss-code": "E14000542",
+                    "parliament-id": 3303
+                },
+                {
+                    "name": "Barrow and Furness",
+                    "country": "England",
+                    "mapit-id": 66006,
+                    "gss-code": "E14000543",
+                    "parliament-id": 3304
+                },
+                {
+                    "name": "Basildon and Billericay",
+                    "country": "England",
+                    "mapit-id": 65898,
+                    "gss-code": "E14000544",
+                    "parliament-id": 3305
+                },
+                {
+                    "name": "Basingstoke",
+                    "country": "England",
+                    "mapit-id": 65623,
+                    "gss-code": "E14000545",
+                    "parliament-id": 3306
+                },
+                {
+                    "name": "Bassetlaw",
+                    "country": "England",
+                    "mapit-id": 65711,
+                    "gss-code": "E14000546",
+                    "parliament-id": 3307
+                },
+                {
+                    "name": "Bath",
+                    "country": "England",
+                    "mapit-id": 65798,
+                    "gss-code": "E14000547",
+                    "parliament-id": 3308
+                },
+                {
+                    "name": "Batley and Spen",
+                    "country": "England",
+                    "mapit-id": 65751,
+                    "gss-code": "E14000548",
+                    "parliament-id": 3309
+                },
+                {
+                    "name": "Battersea",
+                    "country": "England",
+                    "mapit-id": 65731,
+                    "gss-code": "E14000549",
+                    "parliament-id": 3310
+                },
+                {
+                    "name": "Beaconsfield",
+                    "country": "England",
+                    "mapit-id": 65687,
+                    "gss-code": "E14000550",
+                    "parliament-id": 3311
+                },
+                {
+                    "name": "Beckenham",
+                    "country": "England",
+                    "mapit-id": 65725,
+                    "gss-code": "E14000551",
+                    "parliament-id": 3312
+                },
+                {
+                    "name": "Bedford",
+                    "country": "England",
+                    "mapit-id": 65561,
+                    "gss-code": "E14000552",
+                    "parliament-id": 3313
+                },
+                {
+                    "name": "Belfast East",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66124,
+                    "gss-code": "N06000001",
+                    "parliament-id": 3314
+                },
+                {
+                    "name": "Belfast North",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66125,
+                    "gss-code": "N06000002",
+                    "parliament-id": 3315
+                },
+                {
+                    "name": "Belfast South",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66126,
+                    "gss-code": "N06000003",
+                    "parliament-id": 3316
+                },
+                {
+                    "name": "Belfast West",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66127,
+                    "gss-code": "N06000004",
+                    "parliament-id": 3317
+                },
+                {
+                    "name": "Bermondsey and Old Southwark",
+                    "country": "England",
+                    "mapit-id": 65689,
+                    "gss-code": "E14000553",
+                    "parliament-id": 3318
+                },
+                {
+                    "name": "Berwickshire, Roxburgh and Selkirk",
+                    "country": "Scotland",
+                    "mapit-id": 14405,
+                    "gss-code": "S14000008",
+                    "parliament-id": 216
+                },
+                {
+                    "name": "Berwick-upon-Tweed",
+                    "country": "England",
+                    "mapit-id": 65726,
+                    "gss-code": "E14000554",
+                    "parliament-id": 3319
+                },
+                {
+                    "name": "Bethnal Green and Bow",
+                    "country": "England",
+                    "mapit-id": 65853,
+                    "gss-code": "E14000555",
+                    "parliament-id": 3320
+                },
+                {
+                    "name": "Beverley and Holderness",
+                    "country": "England",
+                    "mapit-id": 65934,
+                    "gss-code": "E14000556",
+                    "parliament-id": 3321
+                },
+                {
+                    "name": "Bexhill and Battle",
+                    "country": "England",
+                    "mapit-id": 65845,
+                    "gss-code": "E14000557",
+                    "parliament-id": 3322
+                },
+                {
+                    "name": "Bexleyheath and Crayford",
+                    "country": "England",
+                    "mapit-id": 65611,
+                    "gss-code": "E14000558",
+                    "parliament-id": 3323
+                },
+                {
+                    "name": "Birkenhead",
+                    "country": "England",
+                    "mapit-id": 65581,
+                    "gss-code": "E14000559",
+                    "parliament-id": 3324
+                },
+                {
+                    "name": "Birmingham, Edgbaston",
+                    "country": "England",
+                    "mapit-id": 65931,
+                    "gss-code": "E14000560",
+                    "parliament-id": 3325
+                },
+                {
+                    "name": "Birmingham, Erdington",
+                    "country": "England",
+                    "mapit-id": 65667,
+                    "gss-code": "E14000561",
+                    "parliament-id": 3326
+                },
+                {
+                    "name": "Birmingham, Hall Green",
+                    "country": "England",
+                    "mapit-id": 65597,
+                    "gss-code": "E14000562",
+                    "parliament-id": 3327
+                },
+                {
+                    "name": "Birmingham, Hodge Hill",
+                    "country": "England",
+                    "mapit-id": 66072,
+                    "gss-code": "E14000563",
+                    "parliament-id": 3328
+                },
+                {
+                    "name": "Birmingham, Ladywood",
+                    "country": "England",
+                    "mapit-id": 65989,
+                    "gss-code": "E14000564",
+                    "parliament-id": 3329
+                },
+                {
+                    "name": "Birmingham, Northfield",
+                    "country": "England",
+                    "mapit-id": 65966,
+                    "gss-code": "E14000565",
+                    "parliament-id": 3330
+                },
+                {
+                    "name": "Birmingham, Perry Barr",
+                    "country": "England",
+                    "mapit-id": 66028,
+                    "gss-code": "E14000566",
+                    "parliament-id": 3331
+                },
+                {
+                    "name": "Birmingham, Selly Oak",
+                    "country": "England",
+                    "mapit-id": 65804,
+                    "gss-code": "E14000567",
+                    "parliament-id": 3332
+                },
+                {
+                    "name": "Birmingham, Yardley",
+                    "country": "England",
+                    "mapit-id": 65707,
+                    "gss-code": "E14000568",
+                    "parliament-id": 3333
+                },
+                {
+                    "name": "Bishop Auckland",
+                    "country": "England",
+                    "mapit-id": 65820,
+                    "gss-code": "E14000569",
+                    "parliament-id": 3334
+                },
+                {
+                    "name": "Blackburn",
+                    "country": "England",
+                    "mapit-id": 65981,
+                    "gss-code": "E14000570",
+                    "parliament-id": 3335
+                },
+                {
+                    "name": "Blackley and Broughton",
+                    "country": "England",
+                    "mapit-id": 65583,
+                    "gss-code": "E14000571",
+                    "parliament-id": 3336
+                },
+                {
+                    "name": "Blackpool North and Cleveleys",
+                    "country": "England",
+                    "mapit-id": 65750,
+                    "gss-code": "E14000572",
+                    "parliament-id": 3337
+                },
+                {
+                    "name": "Blackpool South",
+                    "country": "England",
+                    "mapit-id": 65679,
+                    "gss-code": "E14000573",
+                    "parliament-id": 3338
+                },
+                {
+                    "name": "Blaenau Gwent",
+                    "country": "Wales",
+                    "mapit-id": 66093,
+                    "gss-code": "W07000072",
+                    "parliament-id": 3339
+                },
+                {
+                    "name": "Blaydon",
+                    "country": "England",
+                    "mapit-id": 65805,
+                    "gss-code": "E14000574",
+                    "parliament-id": 3340
+                },
+                {
+                    "name": "Blyth Valley",
+                    "country": "England",
+                    "mapit-id": 65753,
+                    "gss-code": "E14000575",
+                    "parliament-id": 3341
+                },
+                {
+                    "name": "Bognor Regis and Littlehampton",
+                    "country": "England",
+                    "mapit-id": 65841,
+                    "gss-code": "E14000576",
+                    "parliament-id": 3342
+                },
+                {
+                    "name": "Bolsover",
+                    "country": "England",
+                    "mapit-id": 65628,
+                    "gss-code": "E14000577",
+                    "parliament-id": 3343
+                },
+                {
+                    "name": "Bolton North East",
+                    "country": "England",
+                    "mapit-id": 65646,
+                    "gss-code": "E14000578",
+                    "parliament-id": 3344
+                },
+                {
+                    "name": "Bolton South East",
+                    "country": "England",
+                    "mapit-id": 65712,
+                    "gss-code": "E14000579",
+                    "parliament-id": 3345
+                },
+                {
+                    "name": "Bolton West",
+                    "country": "England",
+                    "mapit-id": 65738,
+                    "gss-code": "E14000580",
+                    "parliament-id": 3346
+                },
+                {
+                    "name": "Bootle",
+                    "country": "England",
+                    "mapit-id": 65821,
+                    "gss-code": "E14000581",
+                    "parliament-id": 3347
+                },
+                {
+                    "name": "Boston and Skegness",
+                    "country": "England",
+                    "mapit-id": 65969,
+                    "gss-code": "E14000582",
+                    "parliament-id": 3348
+                },
+                {
+                    "name": "Bosworth",
+                    "country": "England",
+                    "mapit-id": 66071,
+                    "gss-code": "E14000583",
+                    "parliament-id": 3349
+                },
+                {
+                    "name": "Bournemouth East",
+                    "country": "England",
+                    "mapit-id": 65993,
+                    "gss-code": "E14000584",
+                    "parliament-id": 3350
+                },
+                {
+                    "name": "Bournemouth West",
+                    "country": "England",
+                    "mapit-id": 65933,
+                    "gss-code": "E14000585",
+                    "parliament-id": 3351
+                },
+                {
+                    "name": "Bracknell",
+                    "country": "England",
+                    "mapit-id": 65697,
+                    "gss-code": "E14000586",
+                    "parliament-id": 3352
+                },
+                {
+                    "name": "Bradford East",
+                    "country": "England",
+                    "mapit-id": 65694,
+                    "gss-code": "E14000587",
+                    "parliament-id": 3353
+                },
+                {
+                    "name": "Bradford South",
+                    "country": "England",
+                    "mapit-id": 65995,
+                    "gss-code": "E14000588",
+                    "parliament-id": 3354
+                },
+                {
+                    "name": "Bradford West",
+                    "country": "England",
+                    "mapit-id": 66036,
+                    "gss-code": "E14000589",
+                    "parliament-id": 3355
+                },
+                {
+                    "name": "Braintree",
+                    "country": "England",
+                    "mapit-id": 65670,
+                    "gss-code": "E14000590",
+                    "parliament-id": 3356
+                },
+                {
+                    "name": "Brecon and Radnorshire",
+                    "country": "Wales",
+                    "mapit-id": 66088,
+                    "gss-code": "W07000068",
+                    "parliament-id": 3357
+                },
+                {
+                    "name": "Brent Central",
+                    "country": "England",
+                    "mapit-id": 66065,
+                    "gss-code": "E14000591",
+                    "parliament-id": 3358
+                },
+                {
+                    "name": "Brentford and Isleworth",
+                    "country": "England",
+                    "mapit-id": 65958,
+                    "gss-code": "E14000593",
+                    "parliament-id": 3360
+                },
+                {
+                    "name": "Brent North",
+                    "country": "England",
+                    "mapit-id": 65595,
+                    "gss-code": "E14000592",
+                    "parliament-id": 3359
+                },
+                {
+                    "name": "Brentwood and Ongar",
+                    "country": "England",
+                    "mapit-id": 65685,
+                    "gss-code": "E14000594",
+                    "parliament-id": 3361
+                },
+                {
+                    "name": "Bridgend",
+                    "country": "Wales",
+                    "mapit-id": 66095,
+                    "gss-code": "W07000073",
+                    "parliament-id": 3362
+                },
+                {
+                    "name": "Bridgwater and West Somerset",
+                    "country": "England",
+                    "mapit-id": 65620,
+                    "gss-code": "E14000595",
+                    "parliament-id": 3363
+                },
+                {
+                    "name": "Brigg and Goole",
+                    "country": "England",
+                    "mapit-id": 66000,
+                    "gss-code": "E14000596",
+                    "parliament-id": 3364
+                },
+                {
+                    "name": "Brighton, Kemptown",
+                    "country": "England",
+                    "mapit-id": 65844,
+                    "gss-code": "E14000597",
+                    "parliament-id": 3365
+                },
+                {
+                    "name": "Brighton, Pavilion",
+                    "country": "England",
+                    "mapit-id": 65787,
+                    "gss-code": "E14000598",
+                    "parliament-id": 3366
+                },
+                {
+                    "name": "Bristol East",
+                    "country": "England",
+                    "mapit-id": 65839,
+                    "gss-code": "E14000599",
+                    "parliament-id": 3367
+                },
+                {
+                    "name": "Bristol North West",
+                    "country": "England",
+                    "mapit-id": 66009,
+                    "gss-code": "E14000600",
+                    "parliament-id": 3368
+                },
+                {
+                    "name": "Bristol South",
+                    "country": "England",
+                    "mapit-id": 66031,
+                    "gss-code": "E14000601",
+                    "parliament-id": 3369
+                },
+                {
+                    "name": "Bristol West",
+                    "country": "England",
+                    "mapit-id": 65574,
+                    "gss-code": "E14000602",
+                    "parliament-id": 3370
+                },
+                {
+                    "name": "Broadland",
+                    "country": "England",
+                    "mapit-id": 65852,
+                    "gss-code": "E14000603",
+                    "parliament-id": 3371
+                },
+                {
+                    "name": "Bromley and Chislehurst",
+                    "country": "England",
+                    "mapit-id": 65954,
+                    "gss-code": "E14000604",
+                    "parliament-id": 3372
+                },
+                {
+                    "name": "Bromsgrove",
+                    "country": "England",
+                    "mapit-id": 65617,
+                    "gss-code": "E14000605",
+                    "parliament-id": 3373
+                },
+                {
+                    "name": "Broxbourne",
+                    "country": "England",
+                    "mapit-id": 65639,
+                    "gss-code": "E14000606",
+                    "parliament-id": 3374
+                },
+                {
+                    "name": "Broxtowe",
+                    "country": "England",
+                    "mapit-id": 65849,
+                    "gss-code": "E14000607",
+                    "parliament-id": 3375
+                },
+                {
+                    "name": "Buckingham",
+                    "country": "England",
+                    "mapit-id": 65909,
+                    "gss-code": "E14000608",
+                    "parliament-id": 3376
+                },
+                {
+                    "name": "Burnley",
+                    "country": "England",
+                    "mapit-id": 65846,
+                    "gss-code": "E14000609",
+                    "parliament-id": 3377
+                },
+                {
+                    "name": "Burton",
+                    "country": "England",
+                    "mapit-id": 65708,
+                    "gss-code": "E14000610",
+                    "parliament-id": 3378
+                },
+                {
+                    "name": "Bury North",
+                    "country": "England",
+                    "mapit-id": 66015,
+                    "gss-code": "E14000611",
+                    "parliament-id": 3379
+                },
+                {
+                    "name": "Bury South",
+                    "country": "England",
+                    "mapit-id": 65975,
+                    "gss-code": "E14000612",
+                    "parliament-id": 3380
+                },
+                {
+                    "name": "Bury St Edmunds",
+                    "country": "England",
+                    "mapit-id": 66035,
+                    "gss-code": "E14000613",
+                    "parliament-id": 3381
+                },
+                {
+                    "name": "Caerphilly",
+                    "country": "Wales",
+                    "mapit-id": 66106,
+                    "gss-code": "W07000076",
+                    "parliament-id": 3382
+                },
+                {
+                    "name": "Caithness, Sutherland and Easter Ross",
+                    "country": "Scotland",
+                    "mapit-id": 14406,
+                    "gss-code": "S14000009",
+                    "parliament-id": 543
+                },
+                {
+                    "name": "Calder Valley",
+                    "country": "England",
+                    "mapit-id": 65906,
+                    "gss-code": "E14000614",
+                    "parliament-id": 3383
+                },
+                {
+                    "name": "Camberwell and Peckham",
+                    "country": "England",
+                    "mapit-id": 65913,
+                    "gss-code": "E14000615",
+                    "parliament-id": 3384
+                },
+                {
+                    "name": "Camborne and Redruth",
+                    "country": "England",
+                    "mapit-id": 65826,
+                    "gss-code": "E14000616",
+                    "parliament-id": 3385
+                },
+                {
+                    "name": "Cambridge",
+                    "country": "England",
+                    "mapit-id": 65927,
+                    "gss-code": "E14000617",
+                    "parliament-id": 3386
+                },
+                {
+                    "name": "Cannock Chase",
+                    "country": "England",
+                    "mapit-id": 65790,
+                    "gss-code": "E14000618",
+                    "parliament-id": 3387
+                },
+                {
+                    "name": "Canterbury",
+                    "country": "England",
+                    "mapit-id": 65878,
+                    "gss-code": "E14000619",
+                    "parliament-id": 3388
+                },
+                {
+                    "name": "Cardiff Central",
+                    "country": "Wales",
+                    "mapit-id": 66090,
+                    "gss-code": "W07000050",
+                    "parliament-id": 3389
+                },
+                {
+                    "name": "Cardiff North",
+                    "country": "Wales",
+                    "mapit-id": 66120,
+                    "gss-code": "W07000051",
+                    "parliament-id": 3390
+                },
+                {
+                    "name": "Cardiff South and Penarth",
+                    "country": "Wales",
+                    "mapit-id": 66119,
+                    "gss-code": "W07000080",
+                    "parliament-id": 3391
+                },
+                {
+                    "name": "Cardiff West",
+                    "country": "Wales",
+                    "mapit-id": 66114,
+                    "gss-code": "W07000079",
+                    "parliament-id": 3392
+                },
+                {
+                    "name": "Carlisle",
+                    "country": "England",
+                    "mapit-id": 65929,
+                    "gss-code": "E14000620",
+                    "parliament-id": 3393
+                },
+                {
+                    "name": "Carmarthen East and Dinefwr",
+                    "country": "Wales",
+                    "mapit-id": 66089,
+                    "gss-code": "W07000067",
+                    "parliament-id": 3394
+                },
+                {
+                    "name": "Carmarthen West and South Pembrokeshire",
+                    "country": "Wales",
+                    "mapit-id": 66109,
+                    "gss-code": "W07000066",
+                    "parliament-id": 3395
+                },
+                {
+                    "name": "Carshalton and Wallington",
+                    "country": "England",
+                    "mapit-id": 65972,
+                    "gss-code": "E14000621",
+                    "parliament-id": 3396
+                },
+                {
+                    "name": "Castle Point",
+                    "country": "England",
+                    "mapit-id": 65914,
+                    "gss-code": "E14000622",
+                    "parliament-id": 3397
+                },
+                {
+                    "name": "Central Ayrshire",
+                    "country": "Scotland",
+                    "mapit-id": 14407,
+                    "gss-code": "S14000010",
+                    "parliament-id": 614
+                },
+                {
+                    "name": "Central Devon",
+                    "country": "England",
+                    "mapit-id": 65749,
+                    "gss-code": "E14000623",
+                    "parliament-id": 3398
+                },
+                {
+                    "name": "Central Suffolk and North Ipswich",
+                    "country": "England",
+                    "mapit-id": 65748,
+                    "gss-code": "E14000624",
+                    "parliament-id": 3399
+                },
+                {
+                    "name": "Ceredigion",
+                    "country": "Wales",
+                    "mapit-id": 66110,
+                    "gss-code": "W07000064",
+                    "parliament-id": 3400
+                },
+                {
+                    "name": "Charnwood",
+                    "country": "England",
+                    "mapit-id": 65615,
+                    "gss-code": "E14000625",
+                    "parliament-id": 3401
+                },
+                {
+                    "name": "Chatham and Aylesford",
+                    "country": "England",
+                    "mapit-id": 66075,
+                    "gss-code": "E14000626",
+                    "parliament-id": 3402
+                },
+                {
+                    "name": "Cheadle",
+                    "country": "England",
+                    "mapit-id": 65727,
+                    "gss-code": "E14000627",
+                    "parliament-id": 3403
+                },
+                {
+                    "name": "Chelmsford",
+                    "country": "England",
+                    "mapit-id": 65797,
+                    "gss-code": "E14000628",
+                    "parliament-id": 3404
+                },
+                {
+                    "name": "Chelsea and Fulham",
+                    "country": "England",
+                    "mapit-id": 65818,
+                    "gss-code": "E14000629",
+                    "parliament-id": 3405
+                },
+                {
+                    "name": "Cheltenham",
+                    "country": "England",
+                    "mapit-id": 65946,
+                    "gss-code": "E14000630",
+                    "parliament-id": 3406
+                },
+                {
+                    "name": "Chesham and Amersham",
+                    "country": "England",
+                    "mapit-id": 65801,
+                    "gss-code": "E14000631",
+                    "parliament-id": 3407
+                },
+                {
+                    "name": "Chesterfield",
+                    "country": "England",
+                    "mapit-id": 65980,
+                    "gss-code": "E14000632",
+                    "parliament-id": 3408
+                },
+                {
+                    "name": "Chichester",
+                    "country": "England",
+                    "mapit-id": 65558,
+                    "gss-code": "E14000633",
+                    "parliament-id": 3409
+                },
+                {
+                    "name": "Chingford and Woodford Green",
+                    "country": "England",
+                    "mapit-id": 65721,
+                    "gss-code": "E14000634",
+                    "parliament-id": 3410
+                },
+                {
+                    "name": "Chippenham",
+                    "country": "England",
+                    "mapit-id": 65940,
+                    "gss-code": "E14000635",
+                    "parliament-id": 3411
+                },
+                {
+                    "name": "Chipping Barnet",
+                    "country": "England",
+                    "mapit-id": 65886,
+                    "gss-code": "E14000636",
+                    "parliament-id": 3412
+                },
+                {
+                    "name": "Chorley",
+                    "country": "England",
+                    "mapit-id": 65792,
+                    "gss-code": "E14000637",
+                    "parliament-id": 3413
+                },
+                {
+                    "name": "Christchurch",
+                    "country": "England",
+                    "mapit-id": 65885,
+                    "gss-code": "E14000638",
+                    "parliament-id": 3414
+                },
+                {
+                    "name": "Cities of London and Westminster",
+                    "country": "England",
+                    "mapit-id": 65759,
+                    "gss-code": "E14000639",
+                    "parliament-id": 3415
+                },
+                {
+                    "name": "City of Chester",
+                    "country": "England",
+                    "mapit-id": 65734,
+                    "gss-code": "E14000640",
+                    "parliament-id": 3416
+                },
+                {
+                    "name": "City of Durham",
+                    "country": "England",
+                    "mapit-id": 66021,
+                    "gss-code": "E14000641",
+                    "parliament-id": 3417
+                },
+                {
+                    "name": "Clacton",
+                    "country": "England",
+                    "mapit-id": 66030,
+                    "gss-code": "E14000642",
+                    "parliament-id": 3418
+                },
+                {
+                    "name": "Cleethorpes",
+                    "country": "England",
+                    "mapit-id": 66057,
+                    "gss-code": "E14000643",
+                    "parliament-id": 3419
+                },
+                {
+                    "name": "Clwyd South",
+                    "country": "Wales",
+                    "mapit-id": 66121,
+                    "gss-code": "W07000062",
+                    "parliament-id": 3420
+                },
+                {
+                    "name": "Clwyd West",
+                    "country": "Wales",
+                    "mapit-id": 66100,
+                    "gss-code": "W07000059",
+                    "parliament-id": 3421
+                },
+                {
+                    "name": "Coatbridge, Chryston and Bellshill",
+                    "country": "Scotland",
+                    "mapit-id": 14408,
+                    "gss-code": "S14000011",
+                    "parliament-id": 728
+                },
+                {
+                    "name": "Colchester",
+                    "country": "England",
+                    "mapit-id": 65926,
+                    "gss-code": "E14000644",
+                    "parliament-id": 3422
+                },
+                {
+                    "name": "Colne Valley",
+                    "country": "England",
+                    "mapit-id": 65835,
+                    "gss-code": "E14000645",
+                    "parliament-id": 3423
+                },
+                {
+                    "name": "Congleton",
+                    "country": "England",
+                    "mapit-id": 65771,
+                    "gss-code": "E14000646",
+                    "parliament-id": 3424
+                },
+                {
+                    "name": "Copeland",
+                    "country": "England",
+                    "mapit-id": 65893,
+                    "gss-code": "E14000647",
+                    "parliament-id": 3425
+                },
+                {
+                    "name": "Corby",
+                    "country": "England",
+                    "mapit-id": 65590,
+                    "gss-code": "E14000648",
+                    "parliament-id": 3426
+                },
+                {
+                    "name": "Coventry North East",
+                    "country": "England",
+                    "mapit-id": 65636,
+                    "gss-code": "E14000649",
+                    "parliament-id": 3427
+                },
+                {
+                    "name": "Coventry North West",
+                    "country": "England",
+                    "mapit-id": 65575,
+                    "gss-code": "E14000650",
+                    "parliament-id": 3428
+                },
+                {
+                    "name": "Coventry South",
+                    "country": "England",
+                    "mapit-id": 65877,
+                    "gss-code": "E14000651",
+                    "parliament-id": 3429
+                },
+                {
+                    "name": "Crawley",
+                    "country": "England",
+                    "mapit-id": 65781,
+                    "gss-code": "E14000652",
+                    "parliament-id": 3430
+                },
+                {
+                    "name": "Crewe and Nantwich",
+                    "country": "England",
+                    "mapit-id": 65572,
+                    "gss-code": "E14000653",
+                    "parliament-id": 3431
+                },
+                {
+                    "name": "Croydon Central",
+                    "country": "England",
+                    "mapit-id": 65603,
+                    "gss-code": "E14000654",
+                    "parliament-id": 3432
+                },
+                {
+                    "name": "Croydon North",
+                    "country": "England",
+                    "mapit-id": 65867,
+                    "gss-code": "E14000655",
+                    "parliament-id": 3433
+                },
+                {
+                    "name": "Croydon South",
+                    "country": "England",
+                    "mapit-id": 65923,
+                    "gss-code": "E14000656",
+                    "parliament-id": 3434
+                },
+                {
+                    "name": "Cumbernauld, Kilsyth and Kirkintilloch East",
+                    "country": "Scotland",
+                    "mapit-id": 14409,
+                    "gss-code": "S14000012",
+                    "parliament-id": 804
+                },
+                {
+                    "name": "Cynon Valley",
+                    "country": "Wales",
+                    "mapit-id": 66105,
+                    "gss-code": "W07000070",
+                    "parliament-id": 3435
+                },
+                {
+                    "name": "Dagenham and Rainham",
+                    "country": "England",
+                    "mapit-id": 65985,
+                    "gss-code": "E14000657",
+                    "parliament-id": 3436
+                },
+                {
+                    "name": "Darlington",
+                    "country": "England",
+                    "mapit-id": 65802,
+                    "gss-code": "E14000658",
+                    "parliament-id": 3437
+                },
+                {
+                    "name": "Dartford",
+                    "country": "England",
+                    "mapit-id": 66011,
+                    "gss-code": "E14000659",
+                    "parliament-id": 3438
+                },
+                {
+                    "name": "Daventry",
+                    "country": "England",
+                    "mapit-id": 66025,
+                    "gss-code": "E14000660",
+                    "parliament-id": 3439
+                },
+                {
+                    "name": "Delyn",
+                    "country": "Wales",
+                    "mapit-id": 66112,
+                    "gss-code": "W07000042",
+                    "parliament-id": 3440
+                },
+                {
+                    "name": "Denton and Reddish",
+                    "country": "England",
+                    "mapit-id": 65924,
+                    "gss-code": "E14000661",
+                    "parliament-id": 3441
+                },
+                {
+                    "name": "Derby North",
+                    "country": "England",
+                    "mapit-id": 66070,
+                    "gss-code": "E14000662",
+                    "parliament-id": 3442
+                },
+                {
+                    "name": "Derbyshire Dales",
+                    "country": "England",
+                    "mapit-id": 65799,
+                    "gss-code": "E14000664",
+                    "parliament-id": 3444
+                },
+                {
+                    "name": "Derby South",
+                    "country": "England",
+                    "mapit-id": 65863,
+                    "gss-code": "E14000663",
+                    "parliament-id": 3443
+                },
+                {
+                    "name": "Devizes",
+                    "country": "England",
+                    "mapit-id": 65723,
+                    "gss-code": "E14000665",
+                    "parliament-id": 3445
+                },
+                {
+                    "name": "Dewsbury",
+                    "country": "England",
+                    "mapit-id": 65746,
+                    "gss-code": "E14000666",
+                    "parliament-id": 3446
+                },
+                {
+                    "name": "Doncaster Central",
+                    "country": "England",
+                    "mapit-id": 65621,
+                    "gss-code": "E14000668",
+                    "parliament-id": 3448
+                },
+                {
+                    "name": "Doncaster North",
+                    "country": "England",
+                    "mapit-id": 65672,
+                    "gss-code": "E14000669",
+                    "parliament-id": 3449
+                },
+                {
+                    "name": "Don Valley",
+                    "country": "England",
+                    "mapit-id": 65553,
+                    "gss-code": "E14000667",
+                    "parliament-id": 3447
+                },
+                {
+                    "name": "Dover",
+                    "country": "England",
+                    "mapit-id": 65555,
+                    "gss-code": "E14000670",
+                    "parliament-id": 3450
+                },
+                {
+                    "name": "Dudley North",
+                    "country": "England",
+                    "mapit-id": 65806,
+                    "gss-code": "E14000671",
+                    "parliament-id": 3451
+                },
+                {
+                    "name": "Dudley South",
+                    "country": "England",
+                    "mapit-id": 66054,
+                    "gss-code": "E14000672",
+                    "parliament-id": 3452
+                },
+                {
+                    "name": "Dulwich and West Norwood",
+                    "country": "England",
+                    "mapit-id": 65808,
+                    "gss-code": "E14000673",
+                    "parliament-id": 3453
+                },
+                {
+                    "name": "Dumfries and Galloway",
+                    "country": "Scotland",
+                    "mapit-id": 14410,
+                    "gss-code": "S14000013",
+                    "parliament-id": 911
+                },
+                {
+                    "name": "Dumfriesshire, Clydesdale and Tweeddale",
+                    "country": "Scotland",
+                    "mapit-id": 14411,
+                    "gss-code": "S14000014",
+                    "parliament-id": 914
+                },
+                {
+                    "name": "Dundee East",
+                    "country": "Scotland",
+                    "mapit-id": 14412,
+                    "gss-code": "S14000015",
+                    "parliament-id": 922
+                },
+                {
+                    "name": "Dundee West",
+                    "country": "Scotland",
+                    "mapit-id": 14413,
+                    "gss-code": "S14000016",
+                    "parliament-id": 927
+                },
+                {
+                    "name": "Dunfermline and West Fife",
+                    "country": "Scotland",
+                    "mapit-id": 14414,
+                    "gss-code": "S14000017",
+                    "parliament-id": 929
+                },
+                {
+                    "name": "Dwyfor Meirionnydd",
+                    "country": "Wales",
+                    "mapit-id": 66096,
+                    "gss-code": "W07000061",
+                    "parliament-id": 3454
+                },
+                {
+                    "name": "Ealing Central and Acton",
+                    "country": "England",
+                    "mapit-id": 65755,
+                    "gss-code": "E14000674",
+                    "parliament-id": 3455
+                },
+                {
+                    "name": "Ealing North",
+                    "country": "England",
+                    "mapit-id": 65701,
+                    "gss-code": "E14000675",
+                    "parliament-id": 3456
+                },
+                {
+                    "name": "Ealing, Southall",
+                    "country": "England",
+                    "mapit-id": 65794,
+                    "gss-code": "E14000676",
+                    "parliament-id": 3457
+                },
+                {
+                    "name": "Easington",
+                    "country": "England",
+                    "mapit-id": 65823,
+                    "gss-code": "E14000677",
+                    "parliament-id": 3458
+                },
+                {
+                    "name": "East Antrim",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66128,
+                    "gss-code": "N06000005",
+                    "parliament-id": 3459
+                },
+                {
+                    "name": "Eastbourne",
+                    "country": "England",
+                    "mapit-id": 65714,
+                    "gss-code": "E14000684",
+                    "parliament-id": 3467
+                },
+                {
+                    "name": "East Devon",
+                    "country": "England",
+                    "mapit-id": 65813,
+                    "gss-code": "E14000678",
+                    "parliament-id": 3460
+                },
+                {
+                    "name": "East Dunbartonshire",
+                    "country": "Scotland",
+                    "mapit-id": 14415,
+                    "gss-code": "S14000018",
+                    "parliament-id": 965
+                },
+                {
+                    "name": "East Ham",
+                    "country": "England",
+                    "mapit-id": 65573,
+                    "gss-code": "E14000679",
+                    "parliament-id": 3461
+                },
+                {
+                    "name": "East Hampshire",
+                    "country": "England",
+                    "mapit-id": 65569,
+                    "gss-code": "E14000680",
+                    "parliament-id": 3462
+                },
+                {
+                    "name": "East Kilbride, Strathaven and Lesmahagow",
+                    "country": "Scotland",
+                    "mapit-id": 14416,
+                    "gss-code": "S14000019",
+                    "parliament-id": 985
+                },
+                {
+                    "name": "Eastleigh",
+                    "country": "England",
+                    "mapit-id": 65881,
+                    "gss-code": "E14000685",
+                    "parliament-id": 3468
+                },
+                {
+                    "name": "East Londonderry",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66129,
+                    "gss-code": "N06000006",
+                    "parliament-id": 3463
+                },
+                {
+                    "name": "East Lothian",
+                    "country": "Scotland",
+                    "mapit-id": 14417,
+                    "gss-code": "S14000020",
+                    "parliament-id": 991
+                },
+                {
+                    "name": "East Renfrewshire",
+                    "country": "Scotland",
+                    "mapit-id": 14418,
+                    "gss-code": "S14000021",
+                    "parliament-id": 994
+                },
+                {
+                    "name": "East Surrey",
+                    "country": "England",
+                    "mapit-id": 65856,
+                    "gss-code": "E14000681",
+                    "parliament-id": 3464
+                },
+                {
+                    "name": "East Worthing and Shoreham",
+                    "country": "England",
+                    "mapit-id": 65780,
+                    "gss-code": "E14000682",
+                    "parliament-id": 3465
+                },
+                {
+                    "name": "East Yorkshire",
+                    "country": "England",
+                    "mapit-id": 65979,
+                    "gss-code": "E14000683",
+                    "parliament-id": 3466
+                },
+                {
+                    "name": "Eddisbury",
+                    "country": "England",
+                    "mapit-id": 65756,
+                    "gss-code": "E14000686",
+                    "parliament-id": 3469
+                },
+                {
+                    "name": "Edinburgh East",
+                    "country": "Scotland",
+                    "mapit-id": 14419,
+                    "gss-code": "S14000022",
+                    "parliament-id": 1035
+                },
+                {
+                    "name": "Edinburgh North and Leith",
+                    "country": "Scotland",
+                    "mapit-id": 14420,
+                    "gss-code": "S14000023",
+                    "parliament-id": 1041
+                },
+                {
+                    "name": "Edinburgh South",
+                    "country": "Scotland",
+                    "mapit-id": 14421,
+                    "gss-code": "S14000024",
+                    "parliament-id": 1047
+                },
+                {
+                    "name": "Edinburgh South West",
+                    "country": "Scotland",
+                    "mapit-id": 14422,
+                    "gss-code": "S14000025",
+                    "parliament-id": 1048
+                },
+                {
+                    "name": "Edinburgh West",
+                    "country": "Scotland",
+                    "mapit-id": 14423,
+                    "gss-code": "S14000026",
+                    "parliament-id": 1054
+                },
+                {
+                    "name": "Edmonton",
+                    "country": "England",
+                    "mapit-id": 65570,
+                    "gss-code": "E14000687",
+                    "parliament-id": 3470
+                },
+                {
+                    "name": "Ellesmere Port and Neston",
+                    "country": "England",
+                    "mapit-id": 65991,
+                    "gss-code": "E14000688",
+                    "parliament-id": 3471
+                },
+                {
+                    "name": "Elmet and Rothwell",
+                    "country": "England",
+                    "mapit-id": 65677,
+                    "gss-code": "E14000689",
+                    "parliament-id": 3472
+                },
+                {
+                    "name": "Eltham",
+                    "country": "England",
+                    "mapit-id": 65816,
+                    "gss-code": "E14000690",
+                    "parliament-id": 3473
+                },
+                {
+                    "name": "Enfield North",
+                    "country": "England",
+                    "mapit-id": 66050,
+                    "gss-code": "E14000691",
+                    "parliament-id": 3474
+                },
+                {
+                    "name": "Enfield, Southgate",
+                    "country": "England",
+                    "mapit-id": 65567,
+                    "gss-code": "E14000692",
+                    "parliament-id": 3475
+                },
+                {
+                    "name": "Epping Forest",
+                    "country": "England",
+                    "mapit-id": 66044,
+                    "gss-code": "E14000693",
+                    "parliament-id": 3476
+                },
+                {
+                    "name": "Epsom and Ewell",
+                    "country": "England",
+                    "mapit-id": 65803,
+                    "gss-code": "E14000694",
+                    "parliament-id": 3477
+                },
+                {
+                    "name": "Erewash",
+                    "country": "England",
+                    "mapit-id": 65743,
+                    "gss-code": "E14000695",
+                    "parliament-id": 3478
+                },
+                {
+                    "name": "Erith and Thamesmead",
+                    "country": "England",
+                    "mapit-id": 66023,
+                    "gss-code": "E14000696",
+                    "parliament-id": 3479
+                },
+                {
+                    "name": "Esher and Walton",
+                    "country": "England",
+                    "mapit-id": 66062,
+                    "gss-code": "E14000697",
+                    "parliament-id": 3480
+                },
+                {
+                    "name": "Exeter",
+                    "country": "England",
+                    "mapit-id": 66033,
+                    "gss-code": "E14000698",
+                    "parliament-id": 3481
+                },
+                {
+                    "name": "Falkirk",
+                    "country": "Scotland",
+                    "mapit-id": 14424,
+                    "gss-code": "S14000028",
+                    "parliament-id": 1115
+                },
+                {
+                    "name": "Fareham",
+                    "country": "England",
+                    "mapit-id": 65857,
+                    "gss-code": "E14000699",
+                    "parliament-id": 3482
+                },
+                {
+                    "name": "Faversham and Mid Kent",
+                    "country": "England",
+                    "mapit-id": 65764,
+                    "gss-code": "E14000700",
+                    "parliament-id": 3483
+                },
+                {
+                    "name": "Feltham and Heston",
+                    "country": "England",
+                    "mapit-id": 65655,
+                    "gss-code": "E14000701",
+                    "parliament-id": 3484
+                },
+                {
+                    "name": "Fermanagh and South Tyrone",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66130,
+                    "gss-code": "N06000007",
+                    "parliament-id": 3485
+                },
+                {
+                    "name": "Filton and Bradley Stoke",
+                    "country": "England",
+                    "mapit-id": 65865,
+                    "gss-code": "E14000702",
+                    "parliament-id": 3486
+                },
+                {
+                    "name": "Finchley and Golders Green",
+                    "country": "England",
+                    "mapit-id": 65938,
+                    "gss-code": "E14000703",
+                    "parliament-id": 3487
+                },
+                {
+                    "name": "Folkestone and Hythe",
+                    "country": "England",
+                    "mapit-id": 65779,
+                    "gss-code": "E14000704",
+                    "parliament-id": 3488
+                },
+                {
+                    "name": "Forest of Dean",
+                    "country": "England",
+                    "mapit-id": 66064,
+                    "gss-code": "E14000705",
+                    "parliament-id": 3489
+                },
+                {
+                    "name": "Foyle",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66131,
+                    "gss-code": "N06000008",
+                    "parliament-id": 3490
+                },
+                {
+                    "name": "Fylde",
+                    "country": "England",
+                    "mapit-id": 65955,
+                    "gss-code": "E14000706",
+                    "parliament-id": 3491
+                },
+                {
+                    "name": "Gainsborough",
+                    "country": "England",
+                    "mapit-id": 65952,
+                    "gss-code": "E14000707",
+                    "parliament-id": 3492
+                },
+                {
+                    "name": "Garston and Halewood",
+                    "country": "England",
+                    "mapit-id": 65900,
+                    "gss-code": "E14000708",
+                    "parliament-id": 3493
+                },
+                {
+                    "name": "Gateshead",
+                    "country": "England",
+                    "mapit-id": 65870,
+                    "gss-code": "E14000709",
+                    "parliament-id": 3494
+                },
+                {
+                    "name": "Gedling",
+                    "country": "England",
+                    "mapit-id": 65551,
+                    "gss-code": "E14000710",
+                    "parliament-id": 3495
+                },
+                {
+                    "name": "Gillingham and Rainham",
+                    "country": "England",
+                    "mapit-id": 65864,
+                    "gss-code": "E14000711",
+                    "parliament-id": 3496
+                },
+                {
+                    "name": "Glasgow Central",
+                    "country": "Scotland",
+                    "mapit-id": 14425,
+                    "gss-code": "S14000029",
+                    "parliament-id": 1203
+                },
+                {
+                    "name": "Glasgow East",
+                    "country": "Scotland",
+                    "mapit-id": 14426,
+                    "gss-code": "S14000030",
+                    "parliament-id": 1204
+                },
+                {
+                    "name": "Glasgow North",
+                    "country": "Scotland",
+                    "mapit-id": 14427,
+                    "gss-code": "S14000031",
+                    "parliament-id": 1205
+                },
+                {
+                    "name": "Glasgow North East",
+                    "country": "Scotland",
+                    "mapit-id": 14428,
+                    "gss-code": "S14000032",
+                    "parliament-id": 1206
+                },
+                {
+                    "name": "Glasgow North West",
+                    "country": "Scotland",
+                    "mapit-id": 14429,
+                    "gss-code": "S14000033",
+                    "parliament-id": 1207
+                },
+                {
+                    "name": "Glasgow South",
+                    "country": "Scotland",
+                    "mapit-id": 14430,
+                    "gss-code": "S14000034",
+                    "parliament-id": 1208
+                },
+                {
+                    "name": "Glasgow South West",
+                    "country": "Scotland",
+                    "mapit-id": 14431,
+                    "gss-code": "S14000035",
+                    "parliament-id": 1209
+                },
+                {
+                    "name": "Glenrothes",
+                    "country": "Scotland",
+                    "mapit-id": 14432,
+                    "gss-code": "S14000036",
+                    "parliament-id": 1274
+                },
+                {
+                    "name": "Gloucester",
+                    "country": "England",
+                    "mapit-id": 65996,
+                    "gss-code": "E14000712",
+                    "parliament-id": 3497
+                },
+                {
+                    "name": "Gordon",
+                    "country": "Scotland",
+                    "mapit-id": 14433,
+                    "gss-code": "S14000037",
+                    "parliament-id": 1284
+                },
+                {
+                    "name": "Gosport",
+                    "country": "England",
+                    "mapit-id": 65928,
+                    "gss-code": "E14000713",
+                    "parliament-id": 3498
+                },
+                {
+                    "name": "Gower",
+                    "country": "Wales",
+                    "mapit-id": 66083,
+                    "gss-code": "W07000046",
+                    "parliament-id": 3499
+                },
+                {
+                    "name": "Grantham and Stamford",
+                    "country": "England",
+                    "mapit-id": 65683,
+                    "gss-code": "E14000714",
+                    "parliament-id": 3500
+                },
+                {
+                    "name": "Gravesham",
+                    "country": "England",
+                    "mapit-id": 65944,
+                    "gss-code": "E14000715",
+                    "parliament-id": 3501
+                },
+                {
+                    "name": "Great Grimsby",
+                    "country": "England",
+                    "mapit-id": 65600,
+                    "gss-code": "E14000716",
+                    "parliament-id": 3502
+                },
+                {
+                    "name": "Great Yarmouth",
+                    "country": "England",
+                    "mapit-id": 65627,
+                    "gss-code": "E14000717",
+                    "parliament-id": 3503
+                },
+                {
+                    "name": "Greenwich and Woolwich",
+                    "country": "England",
+                    "mapit-id": 65837,
+                    "gss-code": "E14000718",
+                    "parliament-id": 3504
+                },
+                {
+                    "name": "Guildford",
+                    "country": "England",
+                    "mapit-id": 65838,
+                    "gss-code": "E14000719",
+                    "parliament-id": 3505
+                },
+                {
+                    "name": "Hackney North and Stoke Newington",
+                    "country": "England",
+                    "mapit-id": 65550,
+                    "gss-code": "E14000720",
+                    "parliament-id": 3506
+                },
+                {
+                    "name": "Hackney South and Shoreditch",
+                    "country": "England",
+                    "mapit-id": 65752,
+                    "gss-code": "E14000721",
+                    "parliament-id": 3507
+                },
+                {
+                    "name": "Halesowen and Rowley Regis",
+                    "country": "England",
+                    "mapit-id": 65971,
+                    "gss-code": "E14000722",
+                    "parliament-id": 3508
+                },
+                {
+                    "name": "Halifax",
+                    "country": "England",
+                    "mapit-id": 65599,
+                    "gss-code": "E14000723",
+                    "parliament-id": 3509
+                },
+                {
+                    "name": "Haltemprice and Howden",
+                    "country": "England",
+                    "mapit-id": 65671,
+                    "gss-code": "E14000724",
+                    "parliament-id": 3510
+                },
+                {
+                    "name": "Halton",
+                    "country": "England",
+                    "mapit-id": 65915,
+                    "gss-code": "E14000725",
+                    "parliament-id": 3511
+                },
+                {
+                    "name": "Hammersmith",
+                    "country": "England",
+                    "mapit-id": 65836,
+                    "gss-code": "E14000726",
+                    "parliament-id": 3512
+                },
+                {
+                    "name": "Hampstead and Kilburn",
+                    "country": "England",
+                    "mapit-id": 65576,
+                    "gss-code": "E14000727",
+                    "parliament-id": 3513
+                },
+                {
+                    "name": "Harborough",
+                    "country": "England",
+                    "mapit-id": 65675,
+                    "gss-code": "E14000728",
+                    "parliament-id": 3514
+                },
+                {
+                    "name": "Harlow",
+                    "country": "England",
+                    "mapit-id": 65875,
+                    "gss-code": "E14000729",
+                    "parliament-id": 3515
+                },
+                {
+                    "name": "Harrogate and Knaresborough",
+                    "country": "England",
+                    "mapit-id": 65578,
+                    "gss-code": "E14000730",
+                    "parliament-id": 3516
+                },
+                {
+                    "name": "Harrow East",
+                    "country": "England",
+                    "mapit-id": 65650,
+                    "gss-code": "E14000731",
+                    "parliament-id": 3517
+                },
+                {
+                    "name": "Harrow West",
+                    "country": "England",
+                    "mapit-id": 65796,
+                    "gss-code": "E14000732",
+                    "parliament-id": 3518
+                },
+                {
+                    "name": "Hartlepool",
+                    "country": "England",
+                    "mapit-id": 65990,
+                    "gss-code": "E14000733",
+                    "parliament-id": 3519
+                },
+                {
+                    "name": "Harwich and North Essex",
+                    "country": "England",
+                    "mapit-id": 65674,
+                    "gss-code": "E14000734",
+                    "parliament-id": 3520
+                },
+                {
+                    "name": "Hastings and Rye",
+                    "country": "England",
+                    "mapit-id": 65640,
+                    "gss-code": "E14000735",
+                    "parliament-id": 3521
+                },
+                {
+                    "name": "Havant",
+                    "country": "England",
+                    "mapit-id": 65699,
+                    "gss-code": "E14000736",
+                    "parliament-id": 3522
+                },
+                {
+                    "name": "Hayes and Harlington",
+                    "country": "England",
+                    "mapit-id": 65912,
+                    "gss-code": "E14000737",
+                    "parliament-id": 3523
+                },
+                {
+                    "name": "Hazel Grove",
+                    "country": "England",
+                    "mapit-id": 65557,
+                    "gss-code": "E14000738",
+                    "parliament-id": 3524
+                },
+                {
+                    "name": "Hemel Hempstead",
+                    "country": "England",
+                    "mapit-id": 65967,
+                    "gss-code": "E14000739",
+                    "parliament-id": 3525
+                },
+                {
+                    "name": "Hemsworth",
+                    "country": "England",
+                    "mapit-id": 66018,
+                    "gss-code": "E14000740",
+                    "parliament-id": 3526
+                },
+                {
+                    "name": "Hendon",
+                    "country": "England",
+                    "mapit-id": 65754,
+                    "gss-code": "E14000741",
+                    "parliament-id": 3527
+                },
+                {
+                    "name": "Henley",
+                    "country": "England",
+                    "mapit-id": 65786,
+                    "gss-code": "E14000742",
+                    "parliament-id": 3528
+                },
+                {
+                    "name": "Hereford and South Herefordshire",
+                    "country": "England",
+                    "mapit-id": 65582,
+                    "gss-code": "E14000743",
+                    "parliament-id": 3529
+                },
+                {
+                    "name": "Hertford and Stortford",
+                    "country": "England",
+                    "mapit-id": 66003,
+                    "gss-code": "E14000744",
+                    "parliament-id": 3530
+                },
+                {
+                    "name": "Hertsmere",
+                    "country": "England",
+                    "mapit-id": 65994,
+                    "gss-code": "E14000745",
+                    "parliament-id": 3531
+                },
+                {
+                    "name": "Hexham",
+                    "country": "England",
+                    "mapit-id": 65850,
+                    "gss-code": "E14000746",
+                    "parliament-id": 3532
+                },
+                {
+                    "name": "Heywood and Middleton",
+                    "country": "England",
+                    "mapit-id": 65814,
+                    "gss-code": "E14000747",
+                    "parliament-id": 3533
+                },
+                {
+                    "name": "High Peak",
+                    "country": "England",
+                    "mapit-id": 66052,
+                    "gss-code": "E14000748",
+                    "parliament-id": 3534
+                },
+                {
+                    "name": "Hitchin and Harpenden",
+                    "country": "England",
+                    "mapit-id": 65724,
+                    "gss-code": "E14000749",
+                    "parliament-id": 3535
+                },
+                {
+                    "name": "Holborn and St Pancras",
+                    "country": "England",
+                    "mapit-id": 65824,
+                    "gss-code": "E14000750",
+                    "parliament-id": 3536
+                },
+                {
+                    "name": "Hornchurch and Upminster",
+                    "country": "England",
+                    "mapit-id": 66069,
+                    "gss-code": "E14000751",
+                    "parliament-id": 3537
+                },
+                {
+                    "name": "Hornsey and Wood Green",
+                    "country": "England",
+                    "mapit-id": 65883,
+                    "gss-code": "E14000752",
+                    "parliament-id": 3538
+                },
+                {
+                    "name": "Horsham",
+                    "country": "England",
+                    "mapit-id": 65717,
+                    "gss-code": "E14000753",
+                    "parliament-id": 3539
+                },
+                {
+                    "name": "Houghton and Sunderland South",
+                    "country": "England",
+                    "mapit-id": 65947,
+                    "gss-code": "E14000754",
+                    "parliament-id": 3540
+                },
+                {
+                    "name": "Hove",
+                    "country": "England",
+                    "mapit-id": 65691,
+                    "gss-code": "E14000755",
+                    "parliament-id": 3541
+                },
+                {
+                    "name": "Huddersfield",
+                    "country": "England",
+                    "mapit-id": 65624,
+                    "gss-code": "E14000756",
+                    "parliament-id": 3542
+                },
+                {
+                    "name": "Huntingdon",
+                    "country": "England",
+                    "mapit-id": 65592,
+                    "gss-code": "E14000757",
+                    "parliament-id": 3543
+                },
+                {
+                    "name": "Hyndburn",
+                    "country": "England",
+                    "mapit-id": 65899,
+                    "gss-code": "E14000758",
+                    "parliament-id": 3544
+                },
+                {
+                    "name": "Ilford North",
+                    "country": "England",
+                    "mapit-id": 65630,
+                    "gss-code": "E14000759",
+                    "parliament-id": 3545
+                },
+                {
+                    "name": "Ilford South",
+                    "country": "England",
+                    "mapit-id": 65585,
+                    "gss-code": "E14000760",
+                    "parliament-id": 3546
+                },
+                {
+                    "name": "Inverclyde",
+                    "country": "Scotland",
+                    "mapit-id": 14434,
+                    "gss-code": "S14000038",
+                    "parliament-id": 1555
+                },
+                {
+                    "name": "Inverness, Nairn, Badenoch and Strathspey",
+                    "country": "Scotland",
+                    "mapit-id": 14435,
+                    "gss-code": "S14000039",
+                    "parliament-id": 1561
+                },
+                {
+                    "name": "Ipswich",
+                    "country": "England",
+                    "mapit-id": 65925,
+                    "gss-code": "E14000761",
+                    "parliament-id": 3547
+                },
+                {
+                    "name": "Isle of Wight",
+                    "country": "England",
+                    "mapit-id": 65791,
+                    "gss-code": "E14000762",
+                    "parliament-id": 3548
+                },
+                {
+                    "name": "Islington North",
+                    "country": "England",
+                    "mapit-id": 65937,
+                    "gss-code": "E14000763",
+                    "parliament-id": 3549
+                },
+                {
+                    "name": "Islington South and Finsbury",
+                    "country": "England",
+                    "mapit-id": 65882,
+                    "gss-code": "E14000764",
+                    "parliament-id": 3550
+                },
+                {
+                    "name": "Islwyn",
+                    "country": "Wales",
+                    "mapit-id": 66097,
+                    "gss-code": "W07000077",
+                    "parliament-id": 3551
+                },
+                {
+                    "name": "Jarrow",
+                    "country": "England",
+                    "mapit-id": 66026,
+                    "gss-code": "E14000765",
+                    "parliament-id": 3552
+                },
+                {
+                    "name": "Keighley",
+                    "country": "England",
+                    "mapit-id": 65871,
+                    "gss-code": "E14000766",
+                    "parliament-id": 3553
+                },
+                {
+                    "name": "Kenilworth and Southam",
+                    "country": "England",
+                    "mapit-id": 65968,
+                    "gss-code": "E14000767",
+                    "parliament-id": 3554
+                },
+                {
+                    "name": "Kensington",
+                    "country": "England",
+                    "mapit-id": 65939,
+                    "gss-code": "E14000768",
+                    "parliament-id": 3555
+                },
+                {
+                    "name": "Kettering",
+                    "country": "England",
+                    "mapit-id": 66001,
+                    "gss-code": "E14000769",
+                    "parliament-id": 3556
+                },
+                {
+                    "name": "Kilmarnock and Loudoun",
+                    "country": "Scotland",
+                    "mapit-id": 14436,
+                    "gss-code": "S14000040",
+                    "parliament-id": 1624
+                },
+                {
+                    "name": "Kingston and Surbiton",
+                    "country": "England",
+                    "mapit-id": 65778,
+                    "gss-code": "E14000770",
+                    "parliament-id": 3557
+                },
+                {
+                    "name": "Kingston upon Hull East",
+                    "country": "England",
+                    "mapit-id": 65709,
+                    "gss-code": "E14000771",
+                    "parliament-id": 3558
+                },
+                {
+                    "name": "Kingston upon Hull North",
+                    "country": "England",
+                    "mapit-id": 65618,
+                    "gss-code": "E14000772",
+                    "parliament-id": 3559
+                },
+                {
+                    "name": "Kingston upon Hull West and Hessle",
+                    "country": "England",
+                    "mapit-id": 65984,
+                    "gss-code": "E14000773",
+                    "parliament-id": 3560
+                },
+                {
+                    "name": "Kingswood",
+                    "country": "England",
+                    "mapit-id": 66053,
+                    "gss-code": "E14000774",
+                    "parliament-id": 3561
+                },
+                {
+                    "name": "Kirkcaldy and Cowdenbeath",
+                    "country": "Scotland",
+                    "mapit-id": 14437,
+                    "gss-code": "S14000041",
+                    "parliament-id": 1661
+                },
+                {
+                    "name": "Knowsley",
+                    "country": "England",
+                    "mapit-id": 65869,
+                    "gss-code": "E14000775",
+                    "parliament-id": 3562
+                },
+                {
+                    "name": "Lagan Valley",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66132,
+                    "gss-code": "N06000009",
+                    "parliament-id": 3563
+                },
+                {
+                    "name": "Lanark and Hamilton East",
+                    "country": "Scotland",
+                    "mapit-id": 14438,
+                    "gss-code": "S14000042",
+                    "parliament-id": 1678
+                },
+                {
+                    "name": "Lancaster and Fleetwood",
+                    "country": "England",
+                    "mapit-id": 65568,
+                    "gss-code": "E14000776",
+                    "parliament-id": 3564
+                },
+                {
+                    "name": "Leeds Central",
+                    "country": "England",
+                    "mapit-id": 65765,
+                    "gss-code": "E14000777",
+                    "parliament-id": 3565
+                },
+                {
+                    "name": "Leeds East",
+                    "country": "England",
+                    "mapit-id": 65941,
+                    "gss-code": "E14000778",
+                    "parliament-id": 3566
+                },
+                {
+                    "name": "Leeds North East",
+                    "country": "England",
+                    "mapit-id": 65866,
+                    "gss-code": "E14000779",
+                    "parliament-id": 3567
+                },
+                {
+                    "name": "Leeds North West",
+                    "country": "England",
+                    "mapit-id": 66068,
+                    "gss-code": "E14000780",
+                    "parliament-id": 3568
+                },
+                {
+                    "name": "Leeds West",
+                    "country": "England",
+                    "mapit-id": 65988,
+                    "gss-code": "E14000781",
+                    "parliament-id": 3569
+                },
+                {
+                    "name": "Leicester East",
+                    "country": "England",
+                    "mapit-id": 65807,
+                    "gss-code": "E14000782",
+                    "parliament-id": 3570
+                },
+                {
+                    "name": "Leicester South",
+                    "country": "England",
+                    "mapit-id": 65604,
+                    "gss-code": "E14000783",
+                    "parliament-id": 3571
+                },
+                {
+                    "name": "Leicester West",
+                    "country": "England",
+                    "mapit-id": 65587,
+                    "gss-code": "E14000784",
+                    "parliament-id": 3572
+                },
+                {
+                    "name": "Leigh",
+                    "country": "England",
+                    "mapit-id": 65978,
+                    "gss-code": "E14000785",
+                    "parliament-id": 3573
+                },
+                {
+                    "name": "Lewes",
+                    "country": "England",
+                    "mapit-id": 66020,
+                    "gss-code": "E14000786",
+                    "parliament-id": 3574
+                },
+                {
+                    "name": "Lewisham, Deptford",
+                    "country": "England",
+                    "mapit-id": 66041,
+                    "gss-code": "E14000789",
+                    "parliament-id": 3577
+                },
+                {
+                    "name": "Lewisham East",
+                    "country": "England",
+                    "mapit-id": 65705,
+                    "gss-code": "E14000787",
+                    "parliament-id": 3575
+                },
+                {
+                    "name": "Lewisham West and Penge",
+                    "country": "England",
+                    "mapit-id": 65616,
+                    "gss-code": "E14000788",
+                    "parliament-id": 3576
+                },
+                {
+                    "name": "Leyton and Wanstead",
+                    "country": "England",
+                    "mapit-id": 66013,
+                    "gss-code": "E14000790",
+                    "parliament-id": 3578
+                },
+                {
+                    "name": "Lichfield",
+                    "country": "England",
+                    "mapit-id": 66046,
+                    "gss-code": "E14000791",
+                    "parliament-id": 3579
+                },
+                {
+                    "name": "Lincoln",
+                    "country": "England",
+                    "mapit-id": 65704,
+                    "gss-code": "E14000792",
+                    "parliament-id": 3580
+                },
+                {
+                    "name": "Linlithgow and East Falkirk",
+                    "country": "Scotland",
+                    "mapit-id": 14439,
+                    "gss-code": "S14000043",
+                    "parliament-id": 1782
+                },
+                {
+                    "name": "Liverpool, Riverside",
+                    "country": "England",
+                    "mapit-id": 66066,
+                    "gss-code": "E14000793",
+                    "parliament-id": 3581
+                },
+                {
+                    "name": "Liverpool, Walton",
+                    "country": "England",
+                    "mapit-id": 65970,
+                    "gss-code": "E14000794",
+                    "parliament-id": 3582
+                },
+                {
+                    "name": "Liverpool, Wavertree",
+                    "country": "England",
+                    "mapit-id": 65644,
+                    "gss-code": "E14000795",
+                    "parliament-id": 3583
+                },
+                {
+                    "name": "Liverpool, West Derby",
+                    "country": "England",
+                    "mapit-id": 65766,
+                    "gss-code": "E14000796",
+                    "parliament-id": 3584
+                },
+                {
+                    "name": "Livingston",
+                    "country": "Scotland",
+                    "mapit-id": 14440,
+                    "gss-code": "S14000044",
+                    "parliament-id": 1826
+                },
+                {
+                    "name": "Llanelli",
+                    "country": "Wales",
+                    "mapit-id": 66117,
+                    "gss-code": "W07000045",
+                    "parliament-id": 3585
+                },
+                {
+                    "name": "Loughborough",
+                    "country": "England",
+                    "mapit-id": 65785,
+                    "gss-code": "E14000797",
+                    "parliament-id": 3586
+                },
+                {
+                    "name": "Louth and Horncastle",
+                    "country": "England",
+                    "mapit-id": 65987,
+                    "gss-code": "E14000798",
+                    "parliament-id": 3587
+                },
+                {
+                    "name": "Ludlow",
+                    "country": "England",
+                    "mapit-id": 65690,
+                    "gss-code": "E14000799",
+                    "parliament-id": 3588
+                },
+                {
+                    "name": "Luton North",
+                    "country": "England",
+                    "mapit-id": 65887,
+                    "gss-code": "E14000800",
+                    "parliament-id": 3589
+                },
+                {
+                    "name": "Luton South",
+                    "country": "England",
+                    "mapit-id": 66080,
+                    "gss-code": "E14000801",
+                    "parliament-id": 3590
+                },
+                {
+                    "name": "Macclesfield",
+                    "country": "England",
+                    "mapit-id": 65896,
+                    "gss-code": "E14000802",
+                    "parliament-id": 3591
+                },
+                {
+                    "name": "Maidenhead",
+                    "country": "England",
+                    "mapit-id": 65901,
+                    "gss-code": "E14000803",
+                    "parliament-id": 3592
+                },
+                {
+                    "name": "Maidstone and The Weald",
+                    "country": "England",
+                    "mapit-id": 65936,
+                    "gss-code": "E14000804",
+                    "parliament-id": 3593
+                },
+                {
+                    "name": "Makerfield",
+                    "country": "England",
+                    "mapit-id": 65645,
+                    "gss-code": "E14000805",
+                    "parliament-id": 3594
+                },
+                {
+                    "name": "Maldon",
+                    "country": "England",
+                    "mapit-id": 65661,
+                    "gss-code": "E14000806",
+                    "parliament-id": 3595
+                },
+                {
+                    "name": "Manchester Central",
+                    "country": "England",
+                    "mapit-id": 66048,
+                    "gss-code": "E14000807",
+                    "parliament-id": 3596
+                },
+                {
+                    "name": "Manchester, Gorton",
+                    "country": "England",
+                    "mapit-id": 65834,
+                    "gss-code": "E14000808",
+                    "parliament-id": 3597
+                },
+                {
+                    "name": "Manchester, Withington",
+                    "country": "England",
+                    "mapit-id": 65819,
+                    "gss-code": "E14000809",
+                    "parliament-id": 3598
+                },
+                {
+                    "name": "Mansfield",
+                    "country": "England",
+                    "mapit-id": 65647,
+                    "gss-code": "E14000810",
+                    "parliament-id": 3599
+                },
+                {
+                    "name": "Meon Valley",
+                    "country": "England",
+                    "mapit-id": 65772,
+                    "gss-code": "E14000811",
+                    "parliament-id": 3600
+                },
+                {
+                    "name": "Meriden",
+                    "country": "England",
+                    "mapit-id": 65932,
+                    "gss-code": "E14000812",
+                    "parliament-id": 3601
+                },
+                {
+                    "name": "Merthyr Tydfil and Rhymney",
+                    "country": "Wales",
+                    "mapit-id": 66086,
+                    "gss-code": "W07000071",
+                    "parliament-id": 3602
+                },
+                {
+                    "name": "Mid Bedfordshire",
+                    "country": "England",
+                    "mapit-id": 65718,
+                    "gss-code": "E14000813",
+                    "parliament-id": 3603
+                },
+                {
+                    "name": "Mid Derbyshire",
+                    "country": "England",
+                    "mapit-id": 66007,
+                    "gss-code": "E14000814",
+                    "parliament-id": 3604
+                },
+                {
+                    "name": "Middlesbrough",
+                    "country": "England",
+                    "mapit-id": 65998,
+                    "gss-code": "E14000819",
+                    "parliament-id": 3610
+                },
+                {
+                    "name": "Middlesbrough South and East Cleveland",
+                    "country": "England",
+                    "mapit-id": 65657,
+                    "gss-code": "E14000820",
+                    "parliament-id": 3611
+                },
+                {
+                    "name": "Mid Dorset and North Poole",
+                    "country": "England",
+                    "mapit-id": 66061,
+                    "gss-code": "E14000815",
+                    "parliament-id": 3605
+                },
+                {
+                    "name": "Midlothian",
+                    "country": "Scotland",
+                    "mapit-id": 14441,
+                    "gss-code": "S14000045",
+                    "parliament-id": 1977
+                },
+                {
+                    "name": "Mid Norfolk",
+                    "country": "England",
+                    "mapit-id": 65949,
+                    "gss-code": "E14000816",
+                    "parliament-id": 3606
+                },
+                {
+                    "name": "Mid Sussex",
+                    "country": "England",
+                    "mapit-id": 65999,
+                    "gss-code": "E14000817",
+                    "parliament-id": 3607
+                },
+                {
+                    "name": "Mid Ulster",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66133,
+                    "gss-code": "N06000010",
+                    "parliament-id": 3608
+                },
+                {
+                    "name": "Mid Worcestershire",
+                    "country": "England",
+                    "mapit-id": 65888,
+                    "gss-code": "E14000818",
+                    "parliament-id": 3609
+                },
+                {
+                    "name": "Milton Keynes North",
+                    "country": "England",
+                    "mapit-id": 65953,
+                    "gss-code": "E14000821",
+                    "parliament-id": 3612
+                },
+                {
+                    "name": "Milton Keynes South",
+                    "country": "England",
+                    "mapit-id": 66076,
+                    "gss-code": "E14000822",
+                    "parliament-id": 3613
+                },
+                {
+                    "name": "Mitcham and Morden",
+                    "country": "England",
+                    "mapit-id": 66038,
+                    "gss-code": "E14000823",
+                    "parliament-id": 3614
+                },
+                {
+                    "name": "Mole Valley",
+                    "country": "England",
+                    "mapit-id": 65693,
+                    "gss-code": "E14000824",
+                    "parliament-id": 3615
+                },
+                {
+                    "name": "Monmouth",
+                    "country": "Wales",
+                    "mapit-id": 66084,
+                    "gss-code": "W07000054",
+                    "parliament-id": 3616
+                },
+                {
+                    "name": "Montgomeryshire",
+                    "country": "Wales",
+                    "mapit-id": 66111,
+                    "gss-code": "W07000063",
+                    "parliament-id": 3617
+                },
+                {
+                    "name": "Moray",
+                    "country": "Scotland",
+                    "mapit-id": 14442,
+                    "gss-code": "S14000046",
+                    "parliament-id": 2004
+                },
+                {
+                    "name": "Morecambe and Lunesdale",
+                    "country": "England",
+                    "mapit-id": 65633,
+                    "gss-code": "E14000825",
+                    "parliament-id": 3618
+                },
+                {
+                    "name": "Morley and Outwood",
+                    "country": "England",
+                    "mapit-id": 65735,
+                    "gss-code": "E14000826",
+                    "parliament-id": 3619
+                },
+                {
+                    "name": "Motherwell and Wishaw",
+                    "country": "Scotland",
+                    "mapit-id": 14443,
+                    "gss-code": "S14000047",
+                    "parliament-id": 2022
+                },
+                {
+                    "name": "Na h-Eileanan an Iar",
+                    "country": "Scotland",
+                    "mapit-id": 14444,
+                    "gss-code": "S14000027",
+                    "parliament-id": 2025
+                },
+                {
+                    "name": "Neath",
+                    "country": "Wales",
+                    "mapit-id": 66082,
+                    "gss-code": "W07000069",
+                    "parliament-id": 3620
+                },
+                {
+                    "name": "Newark",
+                    "country": "England",
+                    "mapit-id": 65696,
+                    "gss-code": "E14000829",
+                    "parliament-id": 3623
+                },
+                {
+                    "name": "Newbury",
+                    "country": "England",
+                    "mapit-id": 65862,
+                    "gss-code": "E14000830",
+                    "parliament-id": 3624
+                },
+                {
+                    "name": "Newcastle-under-Lyme",
+                    "country": "England",
+                    "mapit-id": 65861,
+                    "gss-code": "E14000834",
+                    "parliament-id": 3628
+                },
+                {
+                    "name": "Newcastle upon Tyne Central",
+                    "country": "England",
+                    "mapit-id": 66055,
+                    "gss-code": "E14000831",
+                    "parliament-id": 3625
+                },
+                {
+                    "name": "Newcastle upon Tyne East",
+                    "country": "England",
+                    "mapit-id": 65594,
+                    "gss-code": "E14000832",
+                    "parliament-id": 3626
+                },
+                {
+                    "name": "Newcastle upon Tyne North",
+                    "country": "England",
+                    "mapit-id": 65664,
+                    "gss-code": "E14000833",
+                    "parliament-id": 3627
+                },
+                {
+                    "name": "New Forest East",
+                    "country": "England",
+                    "mapit-id": 65556,
+                    "gss-code": "E14000827",
+                    "parliament-id": 3621
+                },
+                {
+                    "name": "New Forest West",
+                    "country": "England",
+                    "mapit-id": 65815,
+                    "gss-code": "E14000828",
+                    "parliament-id": 3622
+                },
+                {
+                    "name": "Newport East",
+                    "country": "Wales",
+                    "mapit-id": 66094,
+                    "gss-code": "W07000055",
+                    "parliament-id": 3629
+                },
+                {
+                    "name": "Newport West",
+                    "country": "Wales",
+                    "mapit-id": 66099,
+                    "gss-code": "W07000056",
+                    "parliament-id": 3630
+                },
+                {
+                    "name": "Newry and Armagh",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66134,
+                    "gss-code": "N06000011",
+                    "parliament-id": 3631
+                },
+                {
+                    "name": "Newton Abbot",
+                    "country": "England",
+                    "mapit-id": 65828,
+                    "gss-code": "E14000835",
+                    "parliament-id": 3632
+                },
+                {
+                    "name": "Normanton, Pontefract and Castleford",
+                    "country": "England",
+                    "mapit-id": 65918,
+                    "gss-code": "E14000836",
+                    "parliament-id": 3633
+                },
+                {
+                    "name": "Northampton North",
+                    "country": "England",
+                    "mapit-id": 66059,
+                    "gss-code": "E14000861",
+                    "parliament-id": 3660
+                },
+                {
+                    "name": "Northampton South",
+                    "country": "England",
+                    "mapit-id": 65910,
+                    "gss-code": "E14000862",
+                    "parliament-id": 3661
+                },
+                {
+                    "name": "North Antrim",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66135,
+                    "gss-code": "N06000012",
+                    "parliament-id": 3634
+                },
+                {
+                    "name": "North Ayrshire and Arran",
+                    "country": "Scotland",
+                    "mapit-id": 14445,
+                    "gss-code": "S14000048",
+                    "parliament-id": 2104
+                },
+                {
+                    "name": "North Cornwall",
+                    "country": "England",
+                    "mapit-id": 65602,
+                    "gss-code": "E14000837",
+                    "parliament-id": 3635
+                },
+                {
+                    "name": "North Devon",
+                    "country": "England",
+                    "mapit-id": 65658,
+                    "gss-code": "E14000838",
+                    "parliament-id": 3636
+                },
+                {
+                    "name": "North Dorset",
+                    "country": "England",
+                    "mapit-id": 65702,
+                    "gss-code": "E14000839",
+                    "parliament-id": 3637
+                },
+                {
+                    "name": "North Down",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66136,
+                    "gss-code": "N06000013",
+                    "parliament-id": 3638
+                },
+                {
+                    "name": "North Durham",
+                    "country": "England",
+                    "mapit-id": 65745,
+                    "gss-code": "E14000840",
+                    "parliament-id": 3639
+                },
+                {
+                    "name": "North East Bedfordshire",
+                    "country": "England",
+                    "mapit-id": 65855,
+                    "gss-code": "E14000841",
+                    "parliament-id": 3640
+                },
+                {
+                    "name": "North East Cambridgeshire",
+                    "country": "England",
+                    "mapit-id": 66063,
+                    "gss-code": "E14000842",
+                    "parliament-id": 3641
+                },
+                {
+                    "name": "North East Derbyshire",
+                    "country": "England",
+                    "mapit-id": 65676,
+                    "gss-code": "E14000843",
+                    "parliament-id": 3642
+                },
+                {
+                    "name": "North East Fife",
+                    "country": "Scotland",
+                    "mapit-id": 14446,
+                    "gss-code": "S14000049",
+                    "parliament-id": 2135
+                },
+                {
+                    "name": "North East Hampshire",
+                    "country": "England",
+                    "mapit-id": 65729,
+                    "gss-code": "E14000844",
+                    "parliament-id": 3643
+                },
+                {
+                    "name": "North East Hertfordshire",
+                    "country": "England",
+                    "mapit-id": 65840,
+                    "gss-code": "E14000845",
+                    "parliament-id": 3644
+                },
+                {
+                    "name": "North East Somerset",
+                    "country": "England",
+                    "mapit-id": 65619,
+                    "gss-code": "E14000846",
+                    "parliament-id": 3645
+                },
+                {
+                    "name": "North Herefordshire",
+                    "country": "England",
+                    "mapit-id": 65642,
+                    "gss-code": "E14000847",
+                    "parliament-id": 3646
+                },
+                {
+                    "name": "North Norfolk",
+                    "country": "England",
+                    "mapit-id": 65872,
+                    "gss-code": "E14000848",
+                    "parliament-id": 3647
+                },
+                {
+                    "name": "North Shropshire",
+                    "country": "England",
+                    "mapit-id": 66017,
+                    "gss-code": "E14000849",
+                    "parliament-id": 3648
+                },
+                {
+                    "name": "North Somerset",
+                    "country": "England",
+                    "mapit-id": 65817,
+                    "gss-code": "E14000850",
+                    "parliament-id": 3649
+                },
+                {
+                    "name": "North Swindon",
+                    "country": "England",
+                    "mapit-id": 65760,
+                    "gss-code": "E14000851",
+                    "parliament-id": 3650
+                },
+                {
+                    "name": "North Thanet",
+                    "country": "England",
+                    "mapit-id": 65605,
+                    "gss-code": "E14000852",
+                    "parliament-id": 3651
+                },
+                {
+                    "name": "North Tyneside",
+                    "country": "England",
+                    "mapit-id": 65720,
+                    "gss-code": "E14000853",
+                    "parliament-id": 3652
+                },
+                {
+                    "name": "North Warwickshire",
+                    "country": "England",
+                    "mapit-id": 66024,
+                    "gss-code": "E14000854",
+                    "parliament-id": 3653
+                },
+                {
+                    "name": "North West Cambridgeshire",
+                    "country": "England",
+                    "mapit-id": 65565,
+                    "gss-code": "E14000855",
+                    "parliament-id": 3654
+                },
+                {
+                    "name": "North West Durham",
+                    "country": "England",
+                    "mapit-id": 65859,
+                    "gss-code": "E14000856",
+                    "parliament-id": 3655
+                },
+                {
+                    "name": "North West Hampshire",
+                    "country": "England",
+                    "mapit-id": 65894,
+                    "gss-code": "E14000857",
+                    "parliament-id": 3656
+                },
+                {
+                    "name": "North West Leicestershire",
+                    "country": "England",
+                    "mapit-id": 65776,
+                    "gss-code": "E14000858",
+                    "parliament-id": 3657
+                },
+                {
+                    "name": "North West Norfolk",
+                    "country": "England",
+                    "mapit-id": 65713,
+                    "gss-code": "E14000859",
+                    "parliament-id": 3658
+                },
+                {
+                    "name": "North Wiltshire",
+                    "country": "England",
+                    "mapit-id": 65822,
+                    "gss-code": "E14000860",
+                    "parliament-id": 3659
+                },
+                {
+                    "name": "Norwich North",
+                    "country": "England",
+                    "mapit-id": 65768,
+                    "gss-code": "E14000863",
+                    "parliament-id": 3662
+                },
+                {
+                    "name": "Norwich South",
+                    "country": "England",
+                    "mapit-id": 65634,
+                    "gss-code": "E14000864",
+                    "parliament-id": 3663
+                },
+                {
+                    "name": "Nottingham East",
+                    "country": "England",
+                    "mapit-id": 65559,
+                    "gss-code": "E14000865",
+                    "parliament-id": 3664
+                },
+                {
+                    "name": "Nottingham North",
+                    "country": "England",
+                    "mapit-id": 65643,
+                    "gss-code": "E14000866",
+                    "parliament-id": 3665
+                },
+                {
+                    "name": "Nottingham South",
+                    "country": "England",
+                    "mapit-id": 65945,
+                    "gss-code": "E14000867",
+                    "parliament-id": 3666
+                },
+                {
+                    "name": "Nuneaton",
+                    "country": "England",
+                    "mapit-id": 65663,
+                    "gss-code": "E14000868",
+                    "parliament-id": 3667
+                },
+                {
+                    "name": "Ochil and South Perthshire",
+                    "country": "Scotland",
+                    "mapit-id": 14447,
+                    "gss-code": "S14000050",
+                    "parliament-id": 2234
+                },
+                {
+                    "name": "Ogmore",
+                    "country": "Wales",
+                    "mapit-id": 66107,
+                    "gss-code": "W07000074",
+                    "parliament-id": 3668
+                },
+                {
+                    "name": "Old Bexley and Sidcup",
+                    "country": "England",
+                    "mapit-id": 65653,
+                    "gss-code": "E14000869",
+                    "parliament-id": 3669
+                },
+                {
+                    "name": "Oldham East and Saddleworth",
+                    "country": "England",
+                    "mapit-id": 65903,
+                    "gss-code": "E14000870",
+                    "parliament-id": 3670
+                },
+                {
+                    "name": "Oldham West and Royton",
+                    "country": "England",
+                    "mapit-id": 66022,
+                    "gss-code": "E14000871",
+                    "parliament-id": 3671
+                },
+                {
+                    "name": "Orkney and Shetland",
+                    "country": "Scotland",
+                    "mapit-id": 14448,
+                    "gss-code": "S14000051",
+                    "parliament-id": 2256
+                },
+                {
+                    "name": "Orpington",
+                    "country": "England",
+                    "mapit-id": 65682,
+                    "gss-code": "E14000872",
+                    "parliament-id": 3672
+                },
+                {
+                    "name": "Oxford East",
+                    "country": "England",
+                    "mapit-id": 66060,
+                    "gss-code": "E14000873",
+                    "parliament-id": 3673
+                },
+                {
+                    "name": "Oxford West and Abingdon",
+                    "country": "England",
+                    "mapit-id": 65564,
+                    "gss-code": "E14000874",
+                    "parliament-id": 3674
+                },
+                {
+                    "name": "Paisley and Renfrewshire North",
+                    "country": "Scotland",
+                    "mapit-id": 14449,
+                    "gss-code": "S14000052",
+                    "parliament-id": 2285
+                },
+                {
+                    "name": "Paisley and Renfrewshire South",
+                    "country": "Scotland",
+                    "mapit-id": 14450,
+                    "gss-code": "S14000053",
+                    "parliament-id": 2286
+                },
+                {
+                    "name": "Pendle",
+                    "country": "England",
+                    "mapit-id": 65668,
+                    "gss-code": "E14000875",
+                    "parliament-id": 3675
+                },
+                {
+                    "name": "Penistone and Stocksbridge",
+                    "country": "England",
+                    "mapit-id": 66002,
+                    "gss-code": "E14000876",
+                    "parliament-id": 3676
+                },
+                {
+                    "name": "Penrith and The Border",
+                    "country": "England",
+                    "mapit-id": 66081,
+                    "gss-code": "E14000877",
+                    "parliament-id": 3677
+                },
+                {
+                    "name": "Perth and North Perthshire",
+                    "country": "Scotland",
+                    "mapit-id": 14451,
+                    "gss-code": "S14000054",
+                    "parliament-id": 2316
+                },
+                {
+                    "name": "Peterborough",
+                    "country": "England",
+                    "mapit-id": 65649,
+                    "gss-code": "E14000878",
+                    "parliament-id": 3678
+                },
+                {
+                    "name": "Plymouth, Moor View",
+                    "country": "England",
+                    "mapit-id": 65974,
+                    "gss-code": "E14000879",
+                    "parliament-id": 3679
+                },
+                {
+                    "name": "Plymouth, Sutton and Devonport",
+                    "country": "England",
+                    "mapit-id": 65737,
+                    "gss-code": "E14000880",
+                    "parliament-id": 3680
+                },
+                {
+                    "name": "Pontypridd",
+                    "country": "Wales",
+                    "mapit-id": 66087,
+                    "gss-code": "W07000075",
+                    "parliament-id": 3681
+                },
+                {
+                    "name": "Poole",
+                    "country": "England",
+                    "mapit-id": 65860,
+                    "gss-code": "E14000881",
+                    "parliament-id": 3682
+                },
+                {
+                    "name": "Poplar and Limehouse",
+                    "country": "England",
+                    "mapit-id": 65917,
+                    "gss-code": "E14000882",
+                    "parliament-id": 3683
+                },
+                {
+                    "name": "Portsmouth North",
+                    "country": "England",
+                    "mapit-id": 65566,
+                    "gss-code": "E14000883",
+                    "parliament-id": 3684
+                },
+                {
+                    "name": "Portsmouth South",
+                    "country": "England",
+                    "mapit-id": 66014,
+                    "gss-code": "E14000884",
+                    "parliament-id": 3685
+                },
+                {
+                    "name": "Preseli Pembrokeshire",
+                    "country": "Wales",
+                    "mapit-id": 66102,
+                    "gss-code": "W07000065",
+                    "parliament-id": 3686
+                },
+                {
+                    "name": "Preston",
+                    "country": "England",
+                    "mapit-id": 65673,
+                    "gss-code": "E14000885",
+                    "parliament-id": 3687
+                },
+                {
+                    "name": "Pudsey",
+                    "country": "England",
+                    "mapit-id": 65637,
+                    "gss-code": "E14000886",
+                    "parliament-id": 3688
+                },
+                {
+                    "name": "Putney",
+                    "country": "England",
+                    "mapit-id": 66045,
+                    "gss-code": "E14000887",
+                    "parliament-id": 3689
+                },
+                {
+                    "name": "Rayleigh and Wickford",
+                    "country": "England",
+                    "mapit-id": 65795,
+                    "gss-code": "E14000888",
+                    "parliament-id": 3690
+                },
+                {
+                    "name": "Reading East",
+                    "country": "England",
+                    "mapit-id": 65973,
+                    "gss-code": "E14000889",
+                    "parliament-id": 3691
+                },
+                {
+                    "name": "Reading West",
+                    "country": "England",
+                    "mapit-id": 65982,
+                    "gss-code": "E14000890",
+                    "parliament-id": 3692
+                },
+                {
+                    "name": "Redcar",
+                    "country": "England",
+                    "mapit-id": 66032,
+                    "gss-code": "E14000891",
+                    "parliament-id": 3693
+                },
+                {
+                    "name": "Redditch",
+                    "country": "England",
+                    "mapit-id": 65700,
+                    "gss-code": "E14000892",
+                    "parliament-id": 3694
+                },
+                {
+                    "name": "Reigate",
+                    "country": "England",
+                    "mapit-id": 66005,
+                    "gss-code": "E14000893",
+                    "parliament-id": 3695
+                },
+                {
+                    "name": "Rhondda",
+                    "country": "Wales",
+                    "mapit-id": 66092,
+                    "gss-code": "W07000052",
+                    "parliament-id": 3696
+                },
+                {
+                    "name": "Ribble Valley",
+                    "country": "England",
+                    "mapit-id": 65579,
+                    "gss-code": "E14000894",
+                    "parliament-id": 3697
+                },
+                {
+                    "name": "Richmond Park",
+                    "country": "England",
+                    "mapit-id": 65598,
+                    "gss-code": "E14000896",
+                    "parliament-id": 3699
+                },
+                {
+                    "name": "Richmond (Yorks)",
+                    "country": "England",
+                    "mapit-id": 65722,
+                    "gss-code": "E14000895",
+                    "parliament-id": 3698
+                },
+                {
+                    "name": "Rochdale",
+                    "country": "England",
+                    "mapit-id": 65843,
+                    "gss-code": "E14000897",
+                    "parliament-id": 3700
+                },
+                {
+                    "name": "Rochester and Strood",
+                    "country": "England",
+                    "mapit-id": 66043,
+                    "gss-code": "E14000898",
+                    "parliament-id": 3701
+                },
+                {
+                    "name": "Rochford and Southend East",
+                    "country": "England",
+                    "mapit-id": 65584,
+                    "gss-code": "E14000899",
+                    "parliament-id": 3702
+                },
+                {
+                    "name": "Romford",
+                    "country": "England",
+                    "mapit-id": 66077,
+                    "gss-code": "E14000900",
+                    "parliament-id": 3703
+                },
+                {
+                    "name": "Romsey and Southampton North",
+                    "country": "England",
+                    "mapit-id": 65884,
+                    "gss-code": "E14000901",
+                    "parliament-id": 3704
+                },
+                {
+                    "name": "Rossendale and Darwen",
+                    "country": "England",
+                    "mapit-id": 66019,
+                    "gss-code": "E14000902",
+                    "parliament-id": 3705
+                },
+                {
+                    "name": "Ross, Skye and Lochaber",
+                    "country": "Scotland",
+                    "mapit-id": 14452,
+                    "gss-code": "S14000055",
+                    "parliament-id": 2456
+                },
+                {
+                    "name": "Rotherham",
+                    "country": "England",
+                    "mapit-id": 66029,
+                    "gss-code": "E14000904",
+                    "parliament-id": 3707
+                },
+                {
+                    "name": "Rother Valley",
+                    "country": "England",
+                    "mapit-id": 65930,
+                    "gss-code": "E14000903",
+                    "parliament-id": 3706
+                },
+                {
+                    "name": "Rugby",
+                    "country": "England",
+                    "mapit-id": 65656,
+                    "gss-code": "E14000905",
+                    "parliament-id": 3708
+                },
+                {
+                    "name": "Ruislip, Northwood and Pinner",
+                    "country": "England",
+                    "mapit-id": 65681,
+                    "gss-code": "E14000906",
+                    "parliament-id": 3709
+                },
+                {
+                    "name": "Runnymede and Weybridge",
+                    "country": "England",
+                    "mapit-id": 65589,
+                    "gss-code": "E14000907",
+                    "parliament-id": 3710
+                },
+                {
+                    "name": "Rushcliffe",
+                    "country": "England",
+                    "mapit-id": 65736,
+                    "gss-code": "E14000908",
+                    "parliament-id": 3711
+                },
+                {
+                    "name": "Rutherglen and Hamilton West",
+                    "country": "Scotland",
+                    "mapit-id": 14453,
+                    "gss-code": "S14000056",
+                    "parliament-id": 2501
+                },
+                {
+                    "name": "Rutland and Melton",
+                    "country": "England",
+                    "mapit-id": 65833,
+                    "gss-code": "E14000909",
+                    "parliament-id": 3712
+                },
+                {
+                    "name": "Saffron Walden",
+                    "country": "England",
+                    "mapit-id": 65654,
+                    "gss-code": "E14000910",
+                    "parliament-id": 3713
+                },
+                {
+                    "name": "Salford and Eccles",
+                    "country": "England",
+                    "mapit-id": 65688,
+                    "gss-code": "E14000911",
+                    "parliament-id": 3714
+                },
+                {
+                    "name": "Salisbury",
+                    "country": "England",
+                    "mapit-id": 65889,
+                    "gss-code": "E14000912",
+                    "parliament-id": 3715
+                },
+                {
+                    "name": "Scarborough and Whitby",
+                    "country": "England",
+                    "mapit-id": 65891,
+                    "gss-code": "E14000913",
+                    "parliament-id": 3716
+                },
+                {
+                    "name": "Scunthorpe",
+                    "country": "England",
+                    "mapit-id": 66027,
+                    "gss-code": "E14000914",
+                    "parliament-id": 3717
+                },
+                {
+                    "name": "Sedgefield",
+                    "country": "England",
+                    "mapit-id": 65763,
+                    "gss-code": "E14000915",
+                    "parliament-id": 3718
+                },
+                {
+                    "name": "Sefton Central",
+                    "country": "England",
+                    "mapit-id": 65706,
+                    "gss-code": "E14000916",
+                    "parliament-id": 3719
+                },
+                {
+                    "name": "Selby and Ainsty",
+                    "country": "England",
+                    "mapit-id": 65842,
+                    "gss-code": "E14000917",
+                    "parliament-id": 3720
+                },
+                {
+                    "name": "Sevenoaks",
+                    "country": "England",
+                    "mapit-id": 65698,
+                    "gss-code": "E14000918",
+                    "parliament-id": 3721
+                },
+                {
+                    "name": "Sheffield, Brightside and Hillsborough",
+                    "country": "England",
+                    "mapit-id": 65601,
+                    "gss-code": "E14000921",
+                    "parliament-id": 3724
+                },
+                {
+                    "name": "Sheffield Central",
+                    "country": "England",
+                    "mapit-id": 65957,
+                    "gss-code": "E14000919",
+                    "parliament-id": 3722
+                },
+                {
+                    "name": "Sheffield, Hallam",
+                    "country": "England",
+                    "mapit-id": 65741,
+                    "gss-code": "E14000922",
+                    "parliament-id": 3725
+                },
+                {
+                    "name": "Sheffield, Heeley",
+                    "country": "England",
+                    "mapit-id": 65549,
+                    "gss-code": "E14000923",
+                    "parliament-id": 3726
+                },
+                {
+                    "name": "Sheffield South East",
+                    "country": "England",
+                    "mapit-id": 65793,
+                    "gss-code": "E14000920",
+                    "parliament-id": 3723
+                },
+                {
+                    "name": "Sherwood",
+                    "country": "England",
+                    "mapit-id": 65632,
+                    "gss-code": "E14000924",
+                    "parliament-id": 3727
+                },
+                {
+                    "name": "Shipley",
+                    "country": "England",
+                    "mapit-id": 65959,
+                    "gss-code": "E14000925",
+                    "parliament-id": 3728
+                },
+                {
+                    "name": "Shrewsbury and Atcham",
+                    "country": "England",
+                    "mapit-id": 65563,
+                    "gss-code": "E14000926",
+                    "parliament-id": 3729
+                },
+                {
+                    "name": "Sittingbourne and Sheppey",
+                    "country": "England",
+                    "mapit-id": 65610,
+                    "gss-code": "E14000927",
+                    "parliament-id": 3730
+                },
+                {
+                    "name": "Skipton and Ripon",
+                    "country": "England",
+                    "mapit-id": 65986,
+                    "gss-code": "E14000928",
+                    "parliament-id": 3731
+                },
+                {
+                    "name": "Sleaford and North Hykeham",
+                    "country": "England",
+                    "mapit-id": 65920,
+                    "gss-code": "E14000929",
+                    "parliament-id": 3732
+                },
+                {
+                    "name": "Slough",
+                    "country": "England",
+                    "mapit-id": 65680,
+                    "gss-code": "E14000930",
+                    "parliament-id": 3733
+                },
+                {
+                    "name": "Solihull",
+                    "country": "England",
+                    "mapit-id": 65879,
+                    "gss-code": "E14000931",
+                    "parliament-id": 3734
+                },
+                {
+                    "name": "Somerton and Frome",
+                    "country": "England",
+                    "mapit-id": 65812,
+                    "gss-code": "E14000932",
+                    "parliament-id": 3735
+                },
+                {
+                    "name": "Southampton, Itchen",
+                    "country": "England",
+                    "mapit-id": 66016,
+                    "gss-code": "E14000955",
+                    "parliament-id": 3760
+                },
+                {
+                    "name": "Southampton, Test",
+                    "country": "England",
+                    "mapit-id": 65580,
+                    "gss-code": "E14000956",
+                    "parliament-id": 3761
+                },
+                {
+                    "name": "South Antrim",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66137,
+                    "gss-code": "N06000014",
+                    "parliament-id": 3736
+                },
+                {
+                    "name": "South Basildon and East Thurrock",
+                    "country": "England",
+                    "mapit-id": 65962,
+                    "gss-code": "E14000933",
+                    "parliament-id": 3737
+                },
+                {
+                    "name": "South Cambridgeshire",
+                    "country": "England",
+                    "mapit-id": 65922,
+                    "gss-code": "E14000934",
+                    "parliament-id": 3738
+                },
+                {
+                    "name": "South Derbyshire",
+                    "country": "England",
+                    "mapit-id": 65762,
+                    "gss-code": "E14000935",
+                    "parliament-id": 3739
+                },
+                {
+                    "name": "South Dorset",
+                    "country": "England",
+                    "mapit-id": 65788,
+                    "gss-code": "E14000936",
+                    "parliament-id": 3740
+                },
+                {
+                    "name": "South Down",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66138,
+                    "gss-code": "N06000015",
+                    "parliament-id": 3741
+                },
+                {
+                    "name": "South East Cambridgeshire",
+                    "country": "England",
+                    "mapit-id": 65997,
+                    "gss-code": "E14000937",
+                    "parliament-id": 3742
+                },
+                {
+                    "name": "South East Cornwall",
+                    "country": "England",
+                    "mapit-id": 65684,
+                    "gss-code": "E14000938",
+                    "parliament-id": 3743
+                },
+                {
+                    "name": "Southend West",
+                    "country": "England",
+                    "mapit-id": 65876,
+                    "gss-code": "E14000957",
+                    "parliament-id": 3762
+                },
+                {
+                    "name": "South Holland and The Deepings",
+                    "country": "England",
+                    "mapit-id": 66051,
+                    "gss-code": "E14000939",
+                    "parliament-id": 3744
+                },
+                {
+                    "name": "South Leicestershire",
+                    "country": "England",
+                    "mapit-id": 66034,
+                    "gss-code": "E14000940",
+                    "parliament-id": 3745
+                },
+                {
+                    "name": "South Norfolk",
+                    "country": "England",
+                    "mapit-id": 65666,
+                    "gss-code": "E14000941",
+                    "parliament-id": 3746
+                },
+                {
+                    "name": "South Northamptonshire",
+                    "country": "England",
+                    "mapit-id": 65902,
+                    "gss-code": "E14000942",
+                    "parliament-id": 3747
+                },
+                {
+                    "name": "Southport",
+                    "country": "England",
+                    "mapit-id": 65728,
+                    "gss-code": "E14000958",
+                    "parliament-id": 3763
+                },
+                {
+                    "name": "South Ribble",
+                    "country": "England",
+                    "mapit-id": 65951,
+                    "gss-code": "E14000943",
+                    "parliament-id": 3748
+                },
+                {
+                    "name": "South Shields",
+                    "country": "England",
+                    "mapit-id": 65719,
+                    "gss-code": "E14000944",
+                    "parliament-id": 3749
+                },
+                {
+                    "name": "South Staffordshire",
+                    "country": "England",
+                    "mapit-id": 65943,
+                    "gss-code": "E14000945",
+                    "parliament-id": 3750
+                },
+                {
+                    "name": "South Suffolk",
+                    "country": "England",
+                    "mapit-id": 65614,
+                    "gss-code": "E14000946",
+                    "parliament-id": 3751
+                },
+                {
+                    "name": "South Swindon",
+                    "country": "England",
+                    "mapit-id": 65800,
+                    "gss-code": "E14000947",
+                    "parliament-id": 3752
+                },
+                {
+                    "name": "South Thanet",
+                    "country": "England",
+                    "mapit-id": 65829,
+                    "gss-code": "E14000948",
+                    "parliament-id": 3753
+                },
+                {
+                    "name": "South West Bedfordshire",
+                    "country": "England",
+                    "mapit-id": 65848,
+                    "gss-code": "E14000949",
+                    "parliament-id": 3754
+                },
+                {
+                    "name": "South West Devon",
+                    "country": "England",
+                    "mapit-id": 65775,
+                    "gss-code": "E14000950",
+                    "parliament-id": 3755
+                },
+                {
+                    "name": "South West Hertfordshire",
+                    "country": "England",
+                    "mapit-id": 65596,
+                    "gss-code": "E14000951",
+                    "parliament-id": 3756
+                },
+                {
+                    "name": "South West Norfolk",
+                    "country": "England",
+                    "mapit-id": 65652,
+                    "gss-code": "E14000952",
+                    "parliament-id": 3757
+                },
+                {
+                    "name": "South West Surrey",
+                    "country": "England",
+                    "mapit-id": 65678,
+                    "gss-code": "E14000953",
+                    "parliament-id": 3758
+                },
+                {
+                    "name": "South West Wiltshire",
+                    "country": "England",
+                    "mapit-id": 65956,
+                    "gss-code": "E14000954",
+                    "parliament-id": 3759
+                },
+                {
+                    "name": "Spelthorne",
+                    "country": "England",
+                    "mapit-id": 65942,
+                    "gss-code": "E14000959",
+                    "parliament-id": 3764
+                },
+                {
+                    "name": "Stafford",
+                    "country": "England",
+                    "mapit-id": 66067,
+                    "gss-code": "E14000965",
+                    "parliament-id": 3770
+                },
+                {
+                    "name": "Staffordshire Moorlands",
+                    "country": "England",
+                    "mapit-id": 65907,
+                    "gss-code": "E14000966",
+                    "parliament-id": 3771
+                },
+                {
+                    "name": "St Albans",
+                    "country": "England",
+                    "mapit-id": 65715,
+                    "gss-code": "E14000960",
+                    "parliament-id": 3765
+                },
+                {
+                    "name": "Stalybridge and Hyde",
+                    "country": "England",
+                    "mapit-id": 65960,
+                    "gss-code": "E14000967",
+                    "parliament-id": 3772
+                },
+                {
+                    "name": "St Austell and Newquay",
+                    "country": "England",
+                    "mapit-id": 65591,
+                    "gss-code": "E14000961",
+                    "parliament-id": 3766
+                },
+                {
+                    "name": "Stevenage",
+                    "country": "England",
+                    "mapit-id": 65571,
+                    "gss-code": "E14000968",
+                    "parliament-id": 3773
+                },
+                {
+                    "name": "St Helens North",
+                    "country": "England",
+                    "mapit-id": 66073,
+                    "gss-code": "E14000962",
+                    "parliament-id": 3767
+                },
+                {
+                    "name": "St Helens South and Whiston",
+                    "country": "England",
+                    "mapit-id": 65732,
+                    "gss-code": "E14000963",
+                    "parliament-id": 3768
+                },
+                {
+                    "name": "Stirling",
+                    "country": "Scotland",
+                    "mapit-id": 14454,
+                    "gss-code": "S14000057",
+                    "parliament-id": 2784
+                },
+                {
+                    "name": "St Ives",
+                    "country": "England",
+                    "mapit-id": 65854,
+                    "gss-code": "E14000964",
+                    "parliament-id": 3769
+                },
+                {
+                    "name": "Stockport",
+                    "country": "England",
+                    "mapit-id": 65606,
+                    "gss-code": "E14000969",
+                    "parliament-id": 3774
+                },
+                {
+                    "name": "Stockton North",
+                    "country": "England",
+                    "mapit-id": 65641,
+                    "gss-code": "E14000970",
+                    "parliament-id": 3775
+                },
+                {
+                    "name": "Stockton South",
+                    "country": "England",
+                    "mapit-id": 65908,
+                    "gss-code": "E14000971",
+                    "parliament-id": 3776
+                },
+                {
+                    "name": "Stoke-on-Trent Central",
+                    "country": "England",
+                    "mapit-id": 65710,
+                    "gss-code": "E14000972",
+                    "parliament-id": 3777
+                },
+                {
+                    "name": "Stoke-on-Trent North",
+                    "country": "England",
+                    "mapit-id": 65783,
+                    "gss-code": "E14000973",
+                    "parliament-id": 3778
+                },
+                {
+                    "name": "Stoke-on-Trent South",
+                    "country": "England",
+                    "mapit-id": 65770,
+                    "gss-code": "E14000974",
+                    "parliament-id": 3779
+                },
+                {
+                    "name": "Stone",
+                    "country": "England",
+                    "mapit-id": 65950,
+                    "gss-code": "E14000975",
+                    "parliament-id": 3780
+                },
+                {
+                    "name": "Stourbridge",
+                    "country": "England",
+                    "mapit-id": 65609,
+                    "gss-code": "E14000976",
+                    "parliament-id": 3781
+                },
+                {
+                    "name": "Strangford",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66139,
+                    "gss-code": "N06000016",
+                    "parliament-id": 3782
+                },
+                {
+                    "name": "Stratford-on-Avon",
+                    "country": "England",
+                    "mapit-id": 65648,
+                    "gss-code": "E14000977",
+                    "parliament-id": 3783
+                },
+                {
+                    "name": "Streatham",
+                    "country": "England",
+                    "mapit-id": 66042,
+                    "gss-code": "E14000978",
+                    "parliament-id": 3784
+                },
+                {
+                    "name": "Stretford and Urmston",
+                    "country": "England",
+                    "mapit-id": 65911,
+                    "gss-code": "E14000979",
+                    "parliament-id": 3785
+                },
+                {
+                    "name": "Stroud",
+                    "country": "England",
+                    "mapit-id": 65858,
+                    "gss-code": "E14000980",
+                    "parliament-id": 3786
+                },
+                {
+                    "name": "Suffolk Coastal",
+                    "country": "England",
+                    "mapit-id": 65607,
+                    "gss-code": "E14000981",
+                    "parliament-id": 3787
+                },
+                {
+                    "name": "Sunderland Central",
+                    "country": "England",
+                    "mapit-id": 65586,
+                    "gss-code": "E14000982",
+                    "parliament-id": 3788
+                },
+                {
+                    "name": "Surrey Heath",
+                    "country": "England",
+                    "mapit-id": 65747,
+                    "gss-code": "E14000983",
+                    "parliament-id": 3789
+                },
+                {
+                    "name": "Sutton and Cheam",
+                    "country": "England",
+                    "mapit-id": 66040,
+                    "gss-code": "E14000984",
+                    "parliament-id": 3790
+                },
+                {
+                    "name": "Sutton Coldfield",
+                    "country": "England",
+                    "mapit-id": 65703,
+                    "gss-code": "E14000985",
+                    "parliament-id": 3791
+                },
+                {
+                    "name": "Swansea East",
+                    "country": "Wales",
+                    "mapit-id": 66091,
+                    "gss-code": "W07000048",
+                    "parliament-id": 3792
+                },
+                {
+                    "name": "Swansea West",
+                    "country": "Wales",
+                    "mapit-id": 66118,
+                    "gss-code": "W07000047",
+                    "parliament-id": 3793
+                },
+                {
+                    "name": "Tamworth",
+                    "country": "England",
+                    "mapit-id": 65880,
+                    "gss-code": "E14000986",
+                    "parliament-id": 3794
+                },
+                {
+                    "name": "Tatton",
+                    "country": "England",
+                    "mapit-id": 65964,
+                    "gss-code": "E14000987",
+                    "parliament-id": 3795
+                },
+                {
+                    "name": "Taunton Deane",
+                    "country": "England",
+                    "mapit-id": 65767,
+                    "gss-code": "E14000988",
+                    "parliament-id": 3796
+                },
+                {
+                    "name": "Telford",
+                    "country": "England",
+                    "mapit-id": 65992,
+                    "gss-code": "E14000989",
+                    "parliament-id": 3797
+                },
+                {
+                    "name": "Tewkesbury",
+                    "country": "England",
+                    "mapit-id": 65976,
+                    "gss-code": "E14000990",
+                    "parliament-id": 3798
+                },
+                {
+                    "name": "The Cotswolds",
+                    "country": "England",
+                    "mapit-id": 65789,
+                    "gss-code": "E14000991",
+                    "parliament-id": 3799
+                },
+                {
+                    "name": "The Wrekin",
+                    "country": "England",
+                    "mapit-id": 65977,
+                    "gss-code": "E14000992",
+                    "parliament-id": 3800
+                },
+                {
+                    "name": "Thirsk and Malton",
+                    "country": "England",
+                    "mapit-id": 65686,
+                    "gss-code": "E14000993",
+                    "parliament-id": 3801
+                },
+                {
+                    "name": "Thornbury and Yate",
+                    "country": "England",
+                    "mapit-id": 65905,
+                    "gss-code": "E14000994",
+                    "parliament-id": 3802
+                },
+                {
+                    "name": "Thurrock",
+                    "country": "England",
+                    "mapit-id": 65919,
+                    "gss-code": "E14000995",
+                    "parliament-id": 3803
+                },
+                {
+                    "name": "Tiverton and Honiton",
+                    "country": "England",
+                    "mapit-id": 65761,
+                    "gss-code": "E14000996",
+                    "parliament-id": 3804
+                },
+                {
+                    "name": "Tonbridge and Malling",
+                    "country": "England",
+                    "mapit-id": 65744,
+                    "gss-code": "E14000997",
+                    "parliament-id": 3805
+                },
+                {
+                    "name": "Tooting",
+                    "country": "England",
+                    "mapit-id": 65554,
+                    "gss-code": "E14000998",
+                    "parliament-id": 3806
+                },
+                {
+                    "name": "Torbay",
+                    "country": "England",
+                    "mapit-id": 65692,
+                    "gss-code": "E14000999",
+                    "parliament-id": 3807
+                },
+                {
+                    "name": "Torfaen",
+                    "country": "Wales",
+                    "mapit-id": 66104,
+                    "gss-code": "W07000053",
+                    "parliament-id": 3808
+                },
+                {
+                    "name": "Torridge and West Devon",
+                    "country": "England",
+                    "mapit-id": 65904,
+                    "gss-code": "E14001000",
+                    "parliament-id": 3809
+                },
+                {
+                    "name": "Totnes",
+                    "country": "England",
+                    "mapit-id": 65810,
+                    "gss-code": "E14001001",
+                    "parliament-id": 3810
+                },
+                {
+                    "name": "Tottenham",
+                    "country": "England",
+                    "mapit-id": 66074,
+                    "gss-code": "E14001002",
+                    "parliament-id": 3811
+                },
+                {
+                    "name": "Truro and Falmouth",
+                    "country": "England",
+                    "mapit-id": 65659,
+                    "gss-code": "E14001003",
+                    "parliament-id": 3812
+                },
+                {
+                    "name": "Tunbridge Wells",
+                    "country": "England",
+                    "mapit-id": 65660,
+                    "gss-code": "E14001004",
+                    "parliament-id": 3813
+                },
+                {
+                    "name": "Twickenham",
+                    "country": "England",
+                    "mapit-id": 65782,
+                    "gss-code": "E14001005",
+                    "parliament-id": 3814
+                },
+                {
+                    "name": "Tynemouth",
+                    "country": "England",
+                    "mapit-id": 65868,
+                    "gss-code": "E14001006",
+                    "parliament-id": 3815
+                },
+                {
+                    "name": "Upper Bann",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66140,
+                    "gss-code": "N06000017",
+                    "parliament-id": 3816
+                },
+                {
+                    "name": "Uxbridge and South Ruislip",
+                    "country": "England",
+                    "mapit-id": 65613,
+                    "gss-code": "E14001007",
+                    "parliament-id": 3817
+                },
+                {
+                    "name": "Vale of Clwyd",
+                    "country": "Wales",
+                    "mapit-id": 66116,
+                    "gss-code": "W07000060",
+                    "parliament-id": 3818
+                },
+                {
+                    "name": "Vale of Glamorgan",
+                    "country": "Wales",
+                    "mapit-id": 66098,
+                    "gss-code": "W07000078",
+                    "parliament-id": 3819
+                },
+                {
+                    "name": "Vauxhall",
+                    "country": "England",
+                    "mapit-id": 65825,
+                    "gss-code": "E14001008",
+                    "parliament-id": 3820
+                },
+                {
+                    "name": "Wakefield",
+                    "country": "England",
+                    "mapit-id": 65733,
+                    "gss-code": "E14001009",
+                    "parliament-id": 3821
+                },
+                {
+                    "name": "Wallasey",
+                    "country": "England",
+                    "mapit-id": 65635,
+                    "gss-code": "E14001010",
+                    "parliament-id": 3822
+                },
+                {
+                    "name": "Walsall North",
+                    "country": "England",
+                    "mapit-id": 65890,
+                    "gss-code": "E14001011",
+                    "parliament-id": 3823
+                },
+                {
+                    "name": "Walsall South",
+                    "country": "England",
+                    "mapit-id": 65832,
+                    "gss-code": "E14001012",
+                    "parliament-id": 3824
+                },
+                {
+                    "name": "Walthamstow",
+                    "country": "England",
+                    "mapit-id": 65651,
+                    "gss-code": "E14001013",
+                    "parliament-id": 3825
+                },
+                {
+                    "name": "Wansbeck",
+                    "country": "England",
+                    "mapit-id": 65631,
+                    "gss-code": "E14001014",
+                    "parliament-id": 3826
+                },
+                {
+                    "name": "Wantage",
+                    "country": "England",
+                    "mapit-id": 65638,
+                    "gss-code": "E14001015",
+                    "parliament-id": 3827
+                },
+                {
+                    "name": "Warley",
+                    "country": "England",
+                    "mapit-id": 66079,
+                    "gss-code": "E14001016",
+                    "parliament-id": 3828
+                },
+                {
+                    "name": "Warrington North",
+                    "country": "England",
+                    "mapit-id": 65874,
+                    "gss-code": "E14001017",
+                    "parliament-id": 3829
+                },
+                {
+                    "name": "Warrington South",
+                    "country": "England",
+                    "mapit-id": 65916,
+                    "gss-code": "E14001018",
+                    "parliament-id": 3830
+                },
+                {
+                    "name": "Warwick and Leamington",
+                    "country": "England",
+                    "mapit-id": 65608,
+                    "gss-code": "E14001019",
+                    "parliament-id": 3831
+                },
+                {
+                    "name": "Washington and Sunderland West",
+                    "country": "England",
+                    "mapit-id": 66049,
+                    "gss-code": "E14001020",
+                    "parliament-id": 3832
+                },
+                {
+                    "name": "Watford",
+                    "country": "England",
+                    "mapit-id": 65626,
+                    "gss-code": "E14001021",
+                    "parliament-id": 3833
+                },
+                {
+                    "name": "Waveney",
+                    "country": "England",
+                    "mapit-id": 66004,
+                    "gss-code": "E14001022",
+                    "parliament-id": 3834
+                },
+                {
+                    "name": "Wealden",
+                    "country": "England",
+                    "mapit-id": 65961,
+                    "gss-code": "E14001023",
+                    "parliament-id": 3835
+                },
+                {
+                    "name": "Weaver Vale",
+                    "country": "England",
+                    "mapit-id": 65769,
+                    "gss-code": "E14001024",
+                    "parliament-id": 3836
+                },
+                {
+                    "name": "Wellingborough",
+                    "country": "England",
+                    "mapit-id": 65830,
+                    "gss-code": "E14001025",
+                    "parliament-id": 3837
+                },
+                {
+                    "name": "Wells",
+                    "country": "England",
+                    "mapit-id": 65560,
+                    "gss-code": "E14001026",
+                    "parliament-id": 3838
+                },
+                {
+                    "name": "Welwyn Hatfield",
+                    "country": "England",
+                    "mapit-id": 65740,
+                    "gss-code": "E14001027",
+                    "parliament-id": 3839
+                },
+                {
+                    "name": "Wentworth and Dearne",
+                    "country": "England",
+                    "mapit-id": 65588,
+                    "gss-code": "E14001028",
+                    "parliament-id": 3840
+                },
+                {
+                    "name": "West Aberdeenshire and Kincardine",
+                    "country": "Scotland",
+                    "mapit-id": 14455,
+                    "gss-code": "S14000058",
+                    "parliament-id": 3096
+                },
+                {
+                    "name": "West Bromwich East",
+                    "country": "England",
+                    "mapit-id": 65983,
+                    "gss-code": "E14001029",
+                    "parliament-id": 3841
+                },
+                {
+                    "name": "West Bromwich West",
+                    "country": "England",
+                    "mapit-id": 66047,
+                    "gss-code": "E14001030",
+                    "parliament-id": 3842
+                },
+                {
+                    "name": "West Dorset",
+                    "country": "England",
+                    "mapit-id": 65716,
+                    "gss-code": "E14001031",
+                    "parliament-id": 3843
+                },
+                {
+                    "name": "West Dunbartonshire",
+                    "country": "Scotland",
+                    "mapit-id": 14456,
+                    "gss-code": "S14000059",
+                    "parliament-id": 3117
+                },
+                {
+                    "name": "West Ham",
+                    "country": "England",
+                    "mapit-id": 66058,
+                    "gss-code": "E14001032",
+                    "parliament-id": 3844
+                },
+                {
+                    "name": "West Lancashire",
+                    "country": "England",
+                    "mapit-id": 65873,
+                    "gss-code": "E14001033",
+                    "parliament-id": 3845
+                },
+                {
+                    "name": "Westminster North",
+                    "country": "England",
+                    "mapit-id": 65851,
+                    "gss-code": "E14001036",
+                    "parliament-id": 3849
+                },
+                {
+                    "name": "Westmorland and Lonsdale",
+                    "country": "England",
+                    "mapit-id": 65963,
+                    "gss-code": "E14001037",
+                    "parliament-id": 3850
+                },
+                {
+                    "name": "Weston-Super-Mare",
+                    "country": "England",
+                    "mapit-id": 65742,
+                    "gss-code": "E14001038",
+                    "parliament-id": 3851
+                },
+                {
+                    "name": "West Suffolk",
+                    "country": "England",
+                    "mapit-id": 65629,
+                    "gss-code": "E14001034",
+                    "parliament-id": 3846
+                },
+                {
+                    "name": "West Tyrone",
+                    "country": "Northern Ireland",
+                    "mapit-id": 66141,
+                    "gss-code": "N06000018",
+                    "parliament-id": 3847
+                },
+                {
+                    "name": "West Worcestershire",
+                    "country": "England",
+                    "mapit-id": 65758,
+                    "gss-code": "E14001035",
+                    "parliament-id": 3848
+                },
+                {
+                    "name": "Wigan",
+                    "country": "England",
+                    "mapit-id": 65612,
+                    "gss-code": "E14001039",
+                    "parliament-id": 3852
+                },
+                {
+                    "name": "Wimbledon",
+                    "country": "England",
+                    "mapit-id": 65827,
+                    "gss-code": "E14001040",
+                    "parliament-id": 3853
+                },
+                {
+                    "name": "Winchester",
+                    "country": "England",
+                    "mapit-id": 65921,
+                    "gss-code": "E14001041",
+                    "parliament-id": 3854
+                },
+                {
+                    "name": "Windsor",
+                    "country": "England",
+                    "mapit-id": 65552,
+                    "gss-code": "E14001042",
+                    "parliament-id": 3855
+                },
+                {
+                    "name": "Wirral South",
+                    "country": "England",
+                    "mapit-id": 65847,
+                    "gss-code": "E14001043",
+                    "parliament-id": 3856
+                },
+                {
+                    "name": "Wirral West",
+                    "country": "England",
+                    "mapit-id": 65897,
+                    "gss-code": "E14001044",
+                    "parliament-id": 3857
+                },
+                {
+                    "name": "Witham",
+                    "country": "England",
+                    "mapit-id": 65831,
+                    "gss-code": "E14001045",
+                    "parliament-id": 3858
+                },
+                {
+                    "name": "Witney",
+                    "country": "England",
+                    "mapit-id": 65622,
+                    "gss-code": "E14001046",
+                    "parliament-id": 3859
+                },
+                {
+                    "name": "Woking",
+                    "country": "England",
+                    "mapit-id": 66039,
+                    "gss-code": "E14001047",
+                    "parliament-id": 3860
+                },
+                {
+                    "name": "Wokingham",
+                    "country": "England",
+                    "mapit-id": 65774,
+                    "gss-code": "E14001048",
+                    "parliament-id": 3861
+                },
+                {
+                    "name": "Wolverhampton North East",
+                    "country": "England",
+                    "mapit-id": 65777,
+                    "gss-code": "E14001049",
+                    "parliament-id": 3862
+                },
+                {
+                    "name": "Wolverhampton South East",
+                    "country": "England",
+                    "mapit-id": 65593,
+                    "gss-code": "E14001050",
+                    "parliament-id": 3863
+                },
+                {
+                    "name": "Wolverhampton South West",
+                    "country": "England",
+                    "mapit-id": 65948,
+                    "gss-code": "E14001051",
+                    "parliament-id": 3864
+                },
+                {
+                    "name": "Worcester",
+                    "country": "England",
+                    "mapit-id": 65577,
+                    "gss-code": "E14001052",
+                    "parliament-id": 3865
+                },
+                {
+                    "name": "Workington",
+                    "country": "England",
+                    "mapit-id": 65625,
+                    "gss-code": "E14001053",
+                    "parliament-id": 3866
+                },
+                {
+                    "name": "Worsley and Eccles South",
+                    "country": "England",
+                    "mapit-id": 65757,
+                    "gss-code": "E14001054",
+                    "parliament-id": 3867
+                },
+                {
+                    "name": "Worthing West",
+                    "country": "England",
+                    "mapit-id": 65562,
+                    "gss-code": "E14001055",
+                    "parliament-id": 3868
+                },
+                {
+                    "name": "Wrexham",
+                    "country": "Wales",
+                    "mapit-id": 66113,
+                    "gss-code": "W07000044",
+                    "parliament-id": 3869
+                },
+                {
+                    "name": "Wycombe",
+                    "country": "England",
+                    "mapit-id": 66010,
+                    "gss-code": "E14001056",
+                    "parliament-id": 3870
+                },
+                {
+                    "name": "Wyre and Preston North",
+                    "country": "England",
+                    "mapit-id": 65695,
+                    "gss-code": "E14001057",
+                    "parliament-id": 3871
+                },
+                {
+                    "name": "Wyre Forest",
+                    "country": "England",
+                    "mapit-id": 66078,
+                    "gss-code": "E14001058",
+                    "parliament-id": 3872
+                },
+                {
+                    "name": "Wythenshawe and Sale East",
+                    "country": "England",
+                    "mapit-id": 65669,
+                    "gss-code": "E14001059",
+                    "parliament-id": 3873
+                },
+                {
+                    "name": "Yeovil",
+                    "country": "England",
+                    "mapit-id": 65935,
+                    "gss-code": "E14001060",
+                    "parliament-id": 3874
+                },
+                {
+                    "name": "Ynys M\u00f4n",
+                    "country": "Wales",
+                    "mapit-id": 66115,
+                    "gss-code": "W07000041",
+                    "parliament-id": 3875
+                },
+                {
+                    "name": "York Central",
+                    "country": "England",
+                    "mapit-id": 65965,
+                    "gss-code": "E14001061",
+                    "parliament-id": 3876
+                },
+                {
+                    "name": "York Outer",
+                    "country": "England",
+                    "mapit-id": 66037,
+                    "gss-code": "E14001062",
+                    "parliament-id": 3877
+                }
+            ]
+        }
+    ]
+}
